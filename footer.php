@@ -1,7 +1,61 @@
-<footer>
-        <p>&copy; Company 2015</p>
-      </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <footer>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h3>Tanloft NRW</h3>
+                            <ul>
+                                <li>Tanzloft NRW<br>Sittarder Straße 63<br>41748 Viersen</li>
+                                <li>02133 - 23 42 23</li>
+                                <li><a href="mailto:info@tanzloft-nrw.de">info@tanzloft-nrw.de</a></li>
+                                <li><a href="index.php">www.tanzloft-nrw.de</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>POLE DANCE</h4>
+                            <ul>
+                                <li>Pole Dance</li>
+                                <li>Trainerin</li>
+                                <li>Studio</li>
+                                <li>FAQ</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>KURSE & PREISE</h4>
+                            <ul>
+                                <li>Pole Spinning</li>
+                                <li>Sexy Choreo</li>
+                                <li>Fortgeschritten Pole</li>
+                                <li>Mittel & Anfänger Pole</li>
+                                <li>Stretching</li>
+                                <li>Schnupperstunde</li>
+                                <li>Kursplan</li>
+                                <li>Preisliste</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>AKTUELLES</h4>
+                            <ul>
+                                <li>News</li>
+                                <li>Specials</li>
+                            </ul>
+                            <h4>INFORMATIONEN</h4>
+                            <ul>
+                                <li>Kontakt</li>
+                                <li>Medien</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <p>&copy; 2015 Tanzloft NRW | <a href="#">Impressum</a></p>
+                </div>
+            </section>
+        </footer>
+        <!-- /container -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>

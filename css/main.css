@@ -1,22 +1,84 @@
-
-
 /* ==========================================================================
-   Author's custom styles
+   Custom styles: Lisa Thier
    ========================================================================== */
+h1 {
+	width: 126px;
+	height: 91px;
+	margin: 9px 0 0 0;
+	padding: 0;
+	text-indent: -99999px;
+	background-image: url('../img/logo.jpg');
+	background-repeat: no-repeat;
+}
+h2, h3, h4 { margin-top: 0; }
+h2 { font-size: 36px; }
+header {
+	border: 0;
+	background-image: none;
+	background-color: rgba(255,255,255,0.5);
+	-webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,0.2);
+	box-shadow: 		0 0 6px 0 rgba(0,0,0,0.2);
+}
 
+/* NAV */
+.navbar-static-top { border-width: 0; }
+.navbar { margin-bottom: 0; }
+.nav li { font-size: 24px; }
+.nav li > a {
+	padding: 40px 20px;
+	color: #000;
+}
 
+/* SECTIONS */
+section p {
+	color: #414141;
+	font-size: 18px;
+}
+section:nth-child(even) { background-color: #e6e6e6; }
+section:nth-child(even) .col-md-6:first-child { text-align: center; }
+section:nth-child(even) .col-md-6:last-child,
+section:nth-child(odd) .col-md-6:first-child { margin-top: 60px; }
+section:nth-child(even) h2 { color: #152642; }
+section:nth-child(odd) h2 { color: #6d1b4c; }
 
+/* JUMBOTRON */
+.jumbotron {
+	background-color: transparent;
+	background-image: url('../img/concrete_wall_2.png');
+}
 
+/* CAROUSEL */
+.item .col-md-3 { margin-top: 160px; }
+.carousel-control {
+	width: 8%;
+	font-size: 24px;
+}
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none;
+}
+.carousel-control .glyphicon { color: #152642; }
 
+/* 3-SPALTEN */
+.three-columns .col-md-4 { text-align: center; }
+.three-columns .col-md-4 img { margin-bottom: 30px; }
+.three-columns .col-md-4 p { text-align: left; }
 
-
-
-
-
-
-
-
-
-
-
-
+/* FOOTER */
+footer { color: #fff; }
+footer section { padding: 20px 0; }
+footer section:nth-child(odd) {
+	font-size: 14px;
+	border-top: 1px solid #152642;
+	background-color: rgba(21,38,66,0.7);
+}
+footer section:nth-child(even) {
+	background-color: rgba(109,27,76,0.7);
+	-webkit-box-shadow: 0 0 8px 2px rgba(151,93,128,0.8);
+	box-shadow: 		0 0 8px 2px rgba(151,93,128,0.8);
+}
+footer section:nth-child(even) p {
+	color: #fff;
+	margin: 0;
+	font-size: 12px;
+}
