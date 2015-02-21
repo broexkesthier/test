@@ -38,32 +38,6 @@
         <script src="<?=JS?>vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <!--/.navbar-collapse
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <h1><a class="navbar-brand" href="index.php">Tanzloft</a></h1>
-                </div>
-                <nav id="navbar" class="navbar-collapse collapse">
-                    <ul>
-                        <li><a href="#">Über uns</a></li>
-                        <li><a href="#">Kurse</a></li>
-                        <li><a href="#">Preise</a></li>
-                        <li><a href="#">Aktulles</a></li>
-                        <li><a href="#">Kontakt</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav> -->
         <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
             <div class="container">
                 <div class="navbar-header">
@@ -80,7 +54,7 @@
                         <li class="<?=naviActive('ueber-uns')?>"><a href="<?=BASE?>ueber-uns.php">Über uns</a></li>
                         <li class="<?=naviActive('kurse')?>"><a href="<?=BASE?>kurse.php">Kurse</a></li>
                         <li class="<?=naviActive('preise')?>"><a href="<?=BASE?>preise.php">Preise</a></li>
-                        <li class="<?=naviActive('aktuelles')?>"><a href="<?=BASE?>aktuelles.php">Aktulles</a></li>
+                        <li class="<?=naviActive('aktuelles')?>"><a href="<?=BASE?>aktuelles.php">Aktuelles</a></li>
                         <li class="<?=naviActive('kontakt')?>"><a href="<?=BASE?>kontakt.php">Kontakt</a></li>
                     </ul>
                 </nav>

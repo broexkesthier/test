@@ -87,6 +87,7 @@ section:nth-child(even) .open > .dropdown-toggle.btn-default {
 	padding: 20px 10px;
 	color: #000;
 }
+.nav > li.active > a { background-color: #eee; }
 .navbar-toggle {
 	padding: 15px;
 	margin: 10px 15px 0 0;
@@ -163,14 +164,6 @@ footer section:nth-child(even) p {
 		width: 126px;
 		height: 90px !important;
 	}
-	footer .col-md-3 {
-		width: 25%;
-		float: left;
-	}
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
 	.nav li {
 		font-size: 24px;
 		border-top: 4px solid #fff;
@@ -184,10 +177,17 @@ footer section:nth-child(even) p {
 	.nav li > a { padding: 38px 20px; }
 	.nav > li > a:hover,
 	.nav > li > a:focus { background-color: transparent; }
+	footer .col-md-3 {
+		width: 25%;
+		float: left;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
 	.item {
 		width: 100%;
 		margin-left: 0;
 	}
 	.item .col-md-3 { margin-top: 160px; }
-
 }
