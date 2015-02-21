@@ -112,6 +112,10 @@ section:nth-child(odd) h2 { color: #6d1b4c; }
 	background-image: url('../img/concrete_wall_2.png');
 }
 
+/* TABLE */
+table th,
+table td { width: 14.28571428571429%; }
+
 /* CAROUSEL */
 .item {
 	width: 80%;
