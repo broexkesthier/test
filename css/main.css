@@ -2,13 +2,21 @@
    Custom styles: Lisa Thier
    ========================================================================== */
 h1 {
-	width: 126px;
-	height: 91px;
-	margin: 9px 0 0 0;
+	width: 84px;
+	height: 60px;
+	margin: 10px 0 0 10px;
 	padding: 0;
 	text-indent: -99999px;
-	background-image: url('../img/logo.jpg');
+	background-size: 100% auto;
+	background-image: url('../img/logo.png');
 	background-repeat: no-repeat;
+}
+h1 a {
+	width: 84px;
+	height: 60px !important;
+	padding: 0 !important;
+	display: block;
+	margin-left: 0 !important;
 }
 h2, h3, h4 { margin-top: 0; }
 h2 { font-size: 36px; }
@@ -20,14 +28,70 @@ header {
 	box-shadow: 		0 0 6px 0 rgba(0,0,0,0.2);
 }
 
+/* BASE */
+.img-responsive { display: inline-block; }
+
+/* BUTTON */
+.btn-default {
+	color: #fff;
+	text-shadow: none;
+	background-image: -webkit-linear-gradient(top,#975d80 0,#6d1b4c 100%);
+	background-image: -o-linear-gradient(top,#975d80 0,#6d1b4c 100%);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#975d80),to(#6d1b4c));
+	background-image: linear-gradient(to bottom,#975d80 0,#6d1b4c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#975d80', endColorstr='#6d1b4c', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	border-color: #6d1b4c;
+	-webkit-box-shadow: 0;
+	box-shadow: 0;
+}
+.btn-default:hover,
+.btn-default:focus { background-color: #6d1b4c }
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default { 
+	color: #fff;
+	background-color: #6d1b4c;
+	border-color: #975d80;
+}
+section:nth-child(even) .btn-default {
+	background-image: -webkit-linear-gradient(top,#596579 0,#152642 100%);
+	background-image: -o-linear-gradient(top,#596579 0,#152642 100%);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#596579),to(#152642));
+	background-image: linear-gradient(to bottom,#596579 0,#152642 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#596579', endColorstr='#152642', GradientType=0);
+	border-color: #152642;
+}
+section:nth-child(even) .btn-default:hover,
+section:nth-child(even) .btn-default:focus { background-color: #152642 }
+section:nth-child(even) .btn-default:hover,
+section:nth-child(even) .btn-default:focus,
+section:nth-child(even) .btn-default.focus,
+section:nth-child(even) .btn-default:active,
+section:nth-child(even) .btn-default.active,
+section:nth-child(even) .open > .dropdown-toggle.btn-default { 
+	background-color: #152642;
+	border-color: #596579;
+}
+
 /* NAV */
 .navbar-static-top { border-width: 0; }
 .navbar { margin-bottom: 0; }
-.nav li { font-size: 24px; }
+.navbar-nav { margin: 0 -15px; }
+.nav li { font-size: 16px; }
 .nav li > a {
-	padding: 40px 20px;
+	padding: 20px 10px;
 	color: #000;
 }
+.navbar-toggle {
+	padding: 15px;
+	margin: 10px 15px 0 0;
+}
+.navbar-toggle .icon-bar { background-color: #000; }
 
 /* SECTIONS */
 section p {
@@ -48,9 +112,13 @@ section:nth-child(odd) h2 { color: #6d1b4c; }
 }
 
 /* CAROUSEL */
-.item .col-md-3 { margin-top: 160px; }
+.item {
+	width: 80%;
+	margin-left: 10%;
+}
+.item .col-md-6 { margin-top: 0 !important; }
 .carousel-control {
-	width: 8%;
+	width: 5%;
 	font-size: 24px;
 }
 .carousel-control.left,
@@ -81,4 +149,45 @@ footer section:nth-child(even) p {
 	color: #fff;
 	margin: 0;
 	font-size: 12px;
+}
+
+/* MEDIA QUERIES */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	h1 {
+		width: 126px;
+		height: 90px;
+		margin: 10px 0 0 0;
+	}
+	h1 a {
+		width: 126px;
+		height: 90px !important;
+	}
+	footer .col-md-3 {
+		width: 25%;
+		float: left;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.nav li {
+		font-size: 24px;
+		border-top: 4px solid #fff;
+		-webkit-transition: color,border-top 0.3s ease-out;
+		-moz-transition: color,border-top 0.3s ease-out;
+		-o-transition: color,border-top 0.3s ease-out;
+		transition: color,border-top 0.3s ease-out;
+	}
+	.nav li:hover,
+	.nav li.active { border-top: 4px solid #6d1b4c; }
+	.nav li > a { padding: 38px 20px; }
+	.nav > li > a:hover,
+	.nav > li > a:focus { background-color: transparent; }
+	.item {
+		width: 100%;
+		margin-left: 0;
+	}
+	.item .col-md-3 { margin-top: 160px; }
+
 }

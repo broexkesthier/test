@@ -12,7 +12,7 @@
                                 <p> Komm vorbei und probiere die neuen Kurse aus.</p>
                             </div>
                             <div class="col-md-6 col-md-offset-1">
-                                <img src="img/gallery_teaser_01.png" />
+                                <img class="img-responsive" title="Teaser" src="img/gallery_teaser_01.png" />
                             </div>
                         </div>
                     </div>
@@ -23,7 +23,7 @@
                                 <p> Komm vorbei und probiere die neuen Kurse aus.</p>
                             </div>
                             <div class="col-md-6 col-md-offset-1">
-                                <img src="img/gallery_teaser_01.png" />
+                                <img class="img-responsive" title="Teaser" src="img/gallery_teaser_01.png" />
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@
                                 <p> Komm vorbei und probiere die neuen Kurse aus.</p>
                             </div>
                             <div class="col-md-6 col-md-offset-1">
-                                <img src="img/gallery_teaser_01.png" />
+                                <img class="img-responsive" title="Teaser" src="img/gallery_teaser_01.png" />
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="img/section_pole_dance.png" />
+                    <img class="img-responsive" title="Pole Dance" src="img/section_pole_dance.png" />
                 </div>
                 <div class="col-md-6">
                     <h2>Pole Dance kann jeder lernen - auch Du!</h2>
@@ -93,7 +93,7 @@
                     <p><a class="btn btn-default" href="#" role="button">Mehr lesen</a></p>
                 </div>
                 <div class="col-md-5 col-md-offset-1">
-                    <img src="img/section_tanzkurse.png" />
+                    <img class="img-responsive" title="Tanzkurse" src="img/section_tanzkurse.png" />
                 </div>
             </div>
         </div>
@@ -102,7 +102,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="img/section_pole_dance_2.png" />
+                    <img class="img-responsive" title="Pole Dance" src="img/section_pole_dance_2.png" />
                 </div>
                 <div class="col-md-6">
                     <h2>Pole Dance kann jeder lernen - auch Du!</h2>
@@ -124,7 +124,7 @@
                     <p><a class="btn btn-default" href="#" role="button">Mehr lesen</a></p>
                 </div>
                 <div class="col-md-6">
-                    <img src="img/section_wegbeschreibung.png" />
+                    <img class="img-responsive" title="Wegbeschreibung" src="img/section_wegbeschreibung.png" />
                 </div>
             </div>
         </div>
