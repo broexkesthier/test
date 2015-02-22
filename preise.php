@@ -11,8 +11,66 @@
         </div>
     </section>
     <section>
-        <div class="container">
-            
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-1">
+                    <img class="img-circle" src="<?=IMG?>trainer/carina.jpg" title="Carina" />
+                </div>
+                <div class="col-md-2">
+                    <p>Carina</p>
+                </div>
+                <div class="col-md-9">
+                    <p>Pole Dance (Gemischt, Anfänger, Mittel & Fortgeschrittene), Stretching, Sexy Pole and Floor</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-1">
+                    <img class="img-circle" src="<?=IMG?>trainer/eileen.jpg" title="Eileen" />
+                </div>
+                <div class="col-md-2">
+                    <p>Eileen</p>
+                </div>
+                <div class="col-md-9">
+                    <p>Lady Soul, Contemporary</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-1">
+                    <img class="img-circle" src="<?=IMG?>trainer/davis.jpg" title="Davis" />
+                </div>
+                <div class="col-md-2">
+                    <p>Davis</p>
+                </div>
+                <div class="col-md-9">
+                    <p>Afro, Akrobatik</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-1">
+                    <img class="img-circle" src="<?=IMG?>trainer/carina.jpg" title="Benno" />
+                </div>
+                <div class="col-md-2">
+                    <p>Benno</p>
+                </div>
+                <div class="col-md-9">
+                    <p>Akrobatik</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-1">
+                    <img class="img-circle" src="<?=IMG?>trainer/valeri.jpg" title="Valéri" />
+                </div>
+                <div class="col-md-2">
+                    <p>Valéri</p>
+                </div>
+                <div class="col-md-9">
+                    <p>Breakdance</p>
+                </div>
+            </div>
         </div>
     </section>
 

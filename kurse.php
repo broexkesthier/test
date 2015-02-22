@@ -11,7 +11,7 @@
         </div>
     </section>
     <section>
-        <div class="container">
+        <div class="container content">
             <table class="table table-hover">
                 <thead>
                     <th>MO</th>
@@ -25,7 +25,7 @@
                 <tbody>
                     <tr>
                         <td>&nbsp;</td>
-                        <td>18 - 19 Uhr<br>Lay Soul (Eileen)</td>
+                        <td>18 - 19 Uhr<br>Lady Soul (Eileen)</td>
                         <td>18 - 19 Uhr<br>Breakdance (Valéeri)</td>
                         <td>&nbsp;</td>
                         <td>18 - 19 Uhr<br>Afro (Davis)</td>
@@ -46,7 +46,7 @@
                         <td>20:30 - 21:30 Uhr<br>Akrobatik (Benno)</td>
                         <td>20:30 - 21:30 Uhr<br>Pole Dance Mittel/Anfänger (Carina)</td>
                         <td>20:30 - 21:30 Uhr<br>Stretching (Carina)</td>
-                        <td>20:30 - 21:30 Uhr<br>Sexy Pole and Floor (Davis)</td>
+                        <td>20:30 - 21:30 Uhr<br>Sexy Pole and Floor (Carina)</td>
                         <td>&nbsp;</td>
                         <td>19:30 - 20:30 Uhr<br>Pole Dance Anfänger (Carina)</td>
                     </tr>

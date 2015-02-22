@@ -11,7 +11,7 @@
         </div>
     </section>
     <section>
-        <div class="container">
+        <div class="container content">
             
         </div>
     </section>

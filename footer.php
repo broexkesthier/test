@@ -4,11 +4,11 @@
                     <div class="row">
                         <div class="col-md-3">
                             <h3>Tanloft NRW</h3>
-                            <ul>
-                                <li>Tanzloft NRW<br>Sittarder Straße 63<br>41748 Viersen</li>
-                                <li>02133 - 23 42 23</li>
-                                <li><a href="mailto:info@tanzloft-nrw.de">info@tanzloft-nrw.de</a></li>
-                                <li><a href="index.php">www.tanzloft-nrw.de</a></li>
+                            <ul class="footer-contact">
+                                <li class="home">Tanzloft NRW<br>Sittarder Straße 63<br>41748 Viersen</li>
+                                <li class="earphone">02133 - 23 42 23</li>
+                                <li class="envelope"><a href="mailto:info@tanzloft-nrw.de">info@tanzloft-nrw.de</a></li>
+                                <li class="link"><a href="index.php">www.tanzloft-nrw.de</a></li>
                             </ul>
                         </div>
                         <div class="col-md-3">
