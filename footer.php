@@ -12,37 +12,32 @@
                             </ul>
                         </div>
                         <div class="col-md-3">
-                            <h4>POLE DANCE</h4>
+                            <h4>ÜBER UNS</h4>
                             <ul>
-                                <li>Pole Dance</li>
-                                <li>Trainerin</li>
+                                <li>Tanzloft</li>
                                 <li>Studio</li>
+                                <li>Trainer</li>
                                 <li>FAQ</li>
                             </ul>
                         </div>
                         <div class="col-md-3">
-                            <h4>KURSE & PREISE</h4>
+                            <h4>KURSE</h4>
                             <ul>
-                                <li>Pole Spinning</li>
-                                <li>Sexy Choreo</li>
-                                <li>Fortgeschritten Pole</li>
-                                <li>Mittel & Anfänger Pole</li>
-                                <li>Stretching</li>
-                                <li>Schnupperstunde</li>
                                 <li>Kursplan</li>
-                                <li>Preisliste</li>
+                                <li>Pole Kurse</li>
+                                <li>Non-Pole Kurse</li>
+                                <li>Schnupperstunde</li>
                             </ul>
                         </div>
                         <div class="col-md-3">
-                            <h4>AKTUELLES</h4>
+                            <h4>PREISE</h4>
                             <ul>
-                                <li>News</li>
-                                <li>Specials</li>
+                                <li>Preisliste</li>
                             </ul>
-                            <h4>INFORMATIONEN</h4>
+                            <h4>KONTAKT</h4>
                             <ul>
                                 <li>Kontakt</li>
-                                <li>Medien</li>
+                                <li>Impressum</li>
                             </ul>
                         </div>
                     </div>
