@@ -5,70 +5,102 @@
             <div class="row">
                 <div class="col-md-5">
                     <h2>Preise</h2>
-                    <p>Hier findest du die Preislisten für Tanloft.<br>Du kannst 3 Monate, 6 Monate oder auf für 12 Monate einen Vertrag bei uns ergattern.</p>
+                    <p>Hier findest du die Preislisten für Tanzloft.<br>Du kannst 3 Monate, 6 Monate oder auf für 12 Monate einen Vertrag bei uns ergattern. Alle Preise gelten pro Monat</p>
                 </div>
             </div>
         </div>
     </section>
     <section>
         <div class="container content">
+            <h2>Pole Dance</h2>
             <div class="row">
-                <div class="col-md-1">
-                    <img class="img-circle" src="<?=IMG?>trainer/carina.jpg" title="Carina" />
+                <div class="col-md-5 col-md-offset-1">
+                    <p>1 x wöchentlich Pole Dance</p>
                 </div>
                 <div class="col-md-2">
-                    <p>Carina</p>
-                </div>
-                <div class="col-md-9">
-                    <p>Pole Dance (Gemischt, Anfänger, Mittel & Fortgeschrittene), Stretching, Sexy Pole and Floor</p>
+                    <p>45€</p>
                 </div>
             </div>
             <hr>
             <div class="row">
-                <div class="col-md-1">
-                    <img class="img-circle" src="<?=IMG?>trainer/eileen.jpg" title="Eileen" />
+                <div class="col-md-5 col-md-offset-1">
+                    <p>2 x wöchentlich Pole Dance</p>
                 </div>
                 <div class="col-md-2">
-                    <p>Eileen</p>
-                </div>
-                <div class="col-md-9">
-                    <p>Lady Soul, Contemporary</p>
+                    <p>70€</p>
                 </div>
             </div>
             <hr>
             <div class="row">
-                <div class="col-md-1">
-                    <img class="img-circle" src="<?=IMG?>trainer/davis.jpg" title="Davis" />
+                <div class="col-md-5 col-md-offset-1">
+                    <p>3 x wöchentlich Pole Dance</p>
                 </div>
                 <div class="col-md-2">
-                    <p>Davis</p>
-                </div>
-                <div class="col-md-9">
-                    <p>Afro, Akrobatik</p>
+                    <p>90€</p>
                 </div>
             </div>
             <hr>
             <div class="row">
-                <div class="col-md-1">
-                    <img class="img-circle" src="<?=IMG?>trainer/carina.jpg" title="Benno" />
+                <div class="col-md-5 col-md-offset-1">
+                    <p>Pole Flat</p>
                 </div>
                 <div class="col-md-2">
-                    <p>Benno</p>
-                </div>
-                <div class="col-md-9">
-                    <p>Akrobatik</p>
+                    <p>109€</p>
                 </div>
             </div>
             <hr>
             <div class="row">
-                <div class="col-md-1">
-                    <img class="img-circle" src="<?=IMG?>trainer/valeri.jpg" title="Valéri" />
+                <div class="col-md-5 col-md-offset-1">
+                    <p>+ 1 weiter Tanzkurs (non-Pole)</p>
                 </div>
                 <div class="col-md-2">
-                    <p>Valéri</p>
+                    <p>20€</p>
                 </div>
-                <div class="col-md-9">
-                    <p>Breakdance</p>
+            </div>
+            <p>&nbsp;</p>
+            <h2>Tanzkurse</h2>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                    <p>1 x wöchentlich 60 Minuten (non-Pole)</p>
+                </div>
+                <div class="col-md-2">
+                    <p>30€</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                    <p>2 x wöchentlich 60 Minuten (non-Pole)</p>
+                </div>
+                <div class="col-md-2">
+                    <p>55€</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                    <p>3 x wöchentlich 60 Minuten (non-Pole)</p>
+                </div>
+                <div class="col-md-2">
+                    <p>75€</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                    <p>60 Minuten (non-Pole) Flat</p>
+                </div>
+                <div class="col-md-2">
+                    <p>99€</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                    <p>Allgemeine Flat (Pole + non-Pole)</p>
+                </div>
+                <div class="col-md-2">
+                    <p>179€</p>
                 </div>
             </div>
         </div>

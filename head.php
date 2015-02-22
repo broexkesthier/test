@@ -54,7 +54,6 @@
                         <li class="<?=naviActive('ueber-uns')?>"><a href="<?=BASE?>ueber-uns.php">Über uns</a></li>
                         <li class="<?=naviActive('kurse')?>"><a href="<?=BASE?>kurse.php">Kurse</a></li>
                         <li class="<?=naviActive('preise')?>"><a href="<?=BASE?>preise.php">Preise</a></li>
-                        <li class="<?=naviActive('aktuelles')?>"><a href="<?=BASE?>aktuelles.php">Aktuelles</a></li>
                         <li class="<?=naviActive('kontakt')?>"><a href="<?=BASE?>kontakt.php">Kontakt</a></li>
                     </ul>
                 </nav>
