@@ -8,8 +8,8 @@
                     <div class="item active">
                         <div class="row">
                             <div class="col-md-3 col-md-offset-1">
-                                <h3>NEUERÖFFNUNG!</h3>
-                                <p> Komm vorbei und probiere die neuen Kurse aus.</p>
+                                <h3>Leidenschaft</h3>
+                                <p>Lebe deinen Traum!</p>
                             </div>
                             <div class="col-md-6 col-md-offset-1">
                                 <img class="img-responsive" title="Teaser" src="img/gallery_teaser_01.png" />
@@ -19,8 +19,8 @@
                     <div class="item">
                         <div class="row">
                             <div class="col-md-3 col-md-offset-1">
-                                <h3>NEUERÖFFNUNG!</h3>
-                                <p> Komm vorbei und probiere die neuen Kurse aus.</p>
+                                <h3>Spaß</h3>
+                                <p>Genieße dein Leben!</p>
                             </div>
                             <div class="col-md-6 col-md-offset-1">
                                 <img class="img-responsive" title="Teaser" src="img/gallery_teaser_01.png" />
@@ -30,8 +30,8 @@
                     <div class="item">
                         <div class="row">
                             <div class="col-md-3 col-md-offset-1">
-                                <h3>NEUERÖFFNUNG!</h3>
-                                <p> Komm vorbei und probiere die neuen Kurse aus.</p>
+                                <h3>Vitalität!</h3>
+                                <p>Gesundheit für Körper, Geist & Seele!</p>
                             </div>
                             <div class="col-md-6 col-md-offset-1">
                                 <img class="img-responsive" title="Teaser" src="img/gallery_teaser_01.png" />
