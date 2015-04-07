@@ -14,30 +14,33 @@
                         <div class="col-md-3">
                             <h4>ÜBER UNS</h4>
                             <ul>
-                                <li>Tanzloft</li>
-                                <li>Studio</li>
-                                <li>Trainer</li>
-                                <li>FAQ</li>
+                                <li><a href="<?=BASE?>ueber-uns.php">Tanzloft</a></li>
+                                <li><a href="<?=BASE?>ueber-uns.php">Räumlichkeiten</a></li>
                             </ul>
-                        </div>
-                        <div class="col-md-3">
+                            <br>
                             <h4>KURSE</h4>
-                            <ul>
-                                <li>Kursplan</li>
-                                <li>Pole Kurse</li>
-                                <li>Non-Pole Kurse</li>
-                                <li>Schnupperstunde</li>
+                            <ul> 
+                                <li><a href="<?=BASE?>kurse.php">Kurse</a></li>
+                                <li<a href="<?=BASE?>kurse.php">Kursplan</a></li>
                             </ul>
                         </div>
                         <div class="col-md-3">
                             <h4>PREISE</h4>
                             <ul>
-                                <li>Preisliste</li>
+                                <li><a href="<?=BASE?>preise.php">Preisliste</a></li>
                             </ul>
+                            <br>
+                            <h4>Termine</h4>
+                            <ul>
+                                <li><a href="<?=BASE?>termine.php">Workshops</a></li>
+                                <li><a href="<?=BASE?>termine.php">Events</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
                             <h4>KONTAKT</h4>
                             <ul>
-                                <li>Kontakt</li>
-                                <li>Impressum</li>
+                                <li><a href="<?=BASE?>kontakt.php">Anfahrt</a></li>
+                                <li><a href="<?=BASE?>kontakt.php">Kontaktformular</a></li>
                             </ul>
                         </div>
                     </div>

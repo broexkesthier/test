@@ -1,6 +1,41 @@
 /* ==========================================================================
    Custom styles: Lisa Thier
    ========================================================================== */
+
+/* IMPORT FONT */
+@font-face {
+	font-family: 'ETH-Black';
+	src:  url('../fonts/ETH-Black.ttf.woff') format('woff'),
+		  url('../fonts/ETH-Black.ttf.svg#ETH-Black') format('svg'),
+		  url('../fonts/ETH-Black.ttf.eot'),
+		  url('../fonts/ETH-Black.eot?#iefix') format('embedded-opentype'); 
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'dejavu_sanscondensed_bold';
+	src: url('../fonts/DejaVuSansCondensed-Bold-webfont.eot');
+    src: url('../fonts/DejaVuSansCondensed-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSansCondensed-Bold-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSansCondensed-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSansCondensed-Bold-webfont.svg#dejavu_sanscondensed_bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'dejavu_sanscondensed';
+    src: url('../fonts/DejaVuSansCondensed-webfont.eot');
+    src: url('../fonts/DejaVuSansCondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSansCondensed-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSansCondensed-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSansCondensed-webfont.svg#dejavu_sanscondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* BASE */
+body { font-family: 'dejavu_sanscondensed'; }
 h1 {
 	width: 84px;
 	height: 60px;
@@ -18,7 +53,10 @@ h1 a {
 	display: block;
 	margin-left: 0 !important;
 }
-h2, h3, h4 { margin-top: 0; }
+h2, h3, h4 {
+	font-family: 'dejavu_sanscondensed_bold';
+	margin-top: 0;
+}
 h2 {
 	font-size: 36px;
 	padding: 10px 0 15px 0;
@@ -107,16 +145,18 @@ section p {
 section:nth-child(even) { background-color: #e6e6e6; }
 section:nth-child(even) .col-md-6:first-child { text-align: center; }
 section:nth-child(even) .col-md-6:last-child,
-section:nth-child(odd) .col-md-6:first-child { margin-top: 60px; }
+section:nth-child(odd) .col-md-6:first-child { margin-top: 50px; }
 .ueber-uns .col-md-6:first-child { margin-top: 0 !important; }
 section:nth-child(even) h2 { color: #152642; }
 section:nth-child(odd) h2 { color: #6d1b4c; }
-
+.wegbeschreibung { margin-top: 60px; }
+.wegbeschreibung .col-md-6:first-child { margin-top: 20px !important; }
 /* JUMBOTRON */
 .jumbotron {
 	background-color: transparent;
 	background-image: url('../img/concrete_wall_2.png');
 }
+.jumbotron p { font-family: 'dejavu_sanscondensed'; }
 
 /* TABLE */
 table th,
@@ -126,7 +166,7 @@ table td { width: 100%; }
 .kurse td[data-label] {
 	display: block; 
 	position: relative;
-	padding-top: 30px;
+	padding-top: 15px;
 }
 .kurse td:before {
 	content: attr(data-label);
@@ -155,9 +195,11 @@ table td { width: 100%; }
 .carousel-control .glyphicon { color: #152642; }
 
 /* 3-SPALTEN */
+.three-columns .row { margin-bottom: 30px; }
 .three-columns .col-md-4 { text-align: center; }
 .three-columns .col-md-4 img { margin-bottom: 30px; }
-.three-columns .col-md-4 p { text-align: left; }
+.three-columns p { font-family: 'dejavu_sanscondensed'; }
+/*.three-columns .col-md-4 p { text-align: left; }*/
 
 /* UEBER UNS */
 .col-md-1 img {
@@ -245,7 +287,7 @@ footer a:hover {
 		width: 25%;
 		float: left;
 	}
-	.kurse td:before { content: ''; }
+	.kurse td:before { content: ' '; }
 	.kurse thead,
 	.kurse tr {
 		display: table;
@@ -253,10 +295,16 @@ footer a:hover {
 	}
 	.kurse th,
 	.kurse td {
+		font-size: 16px;
 		display: inherit;
 		float: left;
 		width: 16.66666666666667%;
+		border-right: 1px solid #ddd;
 	}
+	.kurse th:last-child,
+	.kurse td:last-child { border-right: 0; }
+	.kurse td { height: 120px; }
+	.kurse th { padding-left: 10px; }
 }
 
 /* Medium devices (desktops, 992px and up) */

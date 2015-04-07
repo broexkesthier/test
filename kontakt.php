@@ -5,7 +5,7 @@
     		<div class="row">
                 <div class="col-md-5">
 			        <h2>Kontakt</h2>
-			        <p>Bei Fragen kannst du uns gerne kontaktieren.</p>
+			        <p>Wir freunen uns auf Dich!</p>
 		    	</div>
 	    	</div>
     	</div>
@@ -13,8 +13,16 @@
     <section>
         <div class="container content">
             <h2>Anschrift</h2>
-            <p>Tanzloft NRW<br>Sittarder Straße 63<br>41748 Viersen</p>
-            <p>Tel: 02133 - 23 42 23<br>E-Mail: <a href="mailto:info@tanzloft-nrw.de">info@tanzloft-nrw.de</a><br>41748 Viersen</p>
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Tanzloft NRW<br>Sittarder Straße 63<br>41748 Viersen</p>
+                    <p>Tel: 02133 - 23 42 23<br>E-Mail: <a href="mailto:info@tanzloft-nrw.de">info@tanzloft-nrw.de</a><br>41748 Viersen</p>
+                </div>
+                <div class="col-md-4">
+                    <p>- gute parkmöglichkeiten</p>
+                    <p>- gute verkehrsanbindung</p>
+                </div>
+            </div>
             <hr>
             <h2>Kontaktformular</h2>
             <form>

@@ -57,15 +57,15 @@
             <div class="row">
                 <div class="col-md-4">
                     <img src="img/pole_icon.png" />
-                    <p>Lorem dasd sad dasd asd asd sad asd asdas dsda asdas as dasd. Lorem dasd sad  dasd asd asd sad asd asdas dsda asdas as dasd.</p>
+                    <p>Pole Dance kann jeder lernen - auch Du!</p>
                 </div>
                 <div class="col-md-4">
                     <img src="img/kalender_icon.png" />
-                    <p>Lorem dasd sad dasd asd asd sad asd asdas dsda asdas as dasd. Lorem dasd sad  dasd asd asd sad asd asdas dsda asdas as dasd. Lorem dasd sad dasd asd asd sad asd asdas.</p>
+                    <p>Workshop & Events</p>
                 </div>
                 <div class="col-md-4">
                     <img src="img/profil_icon.png" />
-                    <p>Lorem dasd sad dasd asd asd sad asd asdas dsda asdas as dasd. Lorem dasd sad  dasd asd asd sad.</p>
+                    <p>Junggesellinnenabschied bei uns feiern!</p>
                 </div>
             </div>
         </div>
@@ -77,14 +77,14 @@
                     <img class="img-responsive" title="Pole Dance" src="img/section_pole_dance.png" />
                 </div>
                 <div class="col-md-6">
-                    <h2>Pole Dance kann jeder lernen - auch Du!</h2>
-                    <p>Du denkst du bist unbeweglich, du wirst niemals einen Spagat können und Körperspannung aufbauen. Falsch! Komm in meine Schnupperstunde und überzeuge Dich selber, das auch du das Zeug dazu hast Pole Dance zu lernen.</p>
-                    <p><a class="btn btn-default" href="#" role="button">Mehr lesen</a></p>
+                    <h2>Unsere etwas anderen Tanzkurse warten auf Dich!</h2>
+                    <p>Bestimmt auch der perfekte Tanzkurz für Dich! Schau bei unseren Kursen vorbei und melde dich direkt zum nächsten Kurs bei uns zur Probestunde an.</p>
+                    <p><a class="btn btn-default" role="button" href="<?=BASE?>kurse.php">Mehr lesen</a></p>
                 </div>
             </div>
         </div>
     </section>
-    <section>
+    <!--<section>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -111,9 +111,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
     <section>
-        <div class="container">
+        <div class="container wegbeschreibung">
             <div class="row">
                 <div class="col-md-6">
                     <h2>Dein Weg zu uns!</h2>
@@ -121,7 +121,7 @@
                     <p>Tanzloft NRW<br>
                     Sittarder Straße 63<br>
                     41748 Viersen</p>
-                    <p><a class="btn btn-default" href="#" role="button">Mehr lesen</a></p>
+                    <p><a class="btn btn-default" href="<?=BASE?>anfahrt.php" role="button">Mehr lesen</a></p>
                 </div>
                 <div class="col-md-6">
                     <img class="img-responsive" title="Wegbeschreibung" src="img/section_wegbeschreibung.png" />

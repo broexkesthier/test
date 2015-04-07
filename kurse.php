@@ -5,13 +5,27 @@
             <div class="row">
                 <div class="col-md-5">
                     <h2>Kurse</h2>
-                    <p>Hier findest du unseren Kursplan und weitere Informationen zu den verschiedenen Kursen.</p>
+                    <p>Hier findest du Informationen zu den verschiedenen Kursen und unseren Kursplan.</p>
                 </div>
             </div>
         </div>
     </section>
     <section>
         <div class="container content">
+            <h2>Kurse</h2>
+            <h3>Pole Dance  - der etwas andere Tanz auch für Dich!</h3>
+            <p>Pole Dance (engl. für Stangentanz) vereint unterschiedliche tänzerische und akrobatische Elemente zu einem ganzheitlichen, effektiven Körpertraining. Durch die vielseitigen Drehungen und Pole Dance Figuren werden Muskeln in sämtlichen Körperregionen aufgebaut, deine Fitness und Flexibilität werden erhöht. Pole Dance zeichnet sich durch grenzenlose Eleganz, Weiblichkeit und akrobatische  Sexiness aus, durch die dein Selbst- und Körperbewusstsein kontinuierlich gesteigert wird. Und das Beste: Wirklich jeder, unabhängig von Alter, körperlicher Fitness und Flexibilität, kann Pole Dance erlernen!</p>
+            <p>Unterteilt wird das Pole Training in die verschiedenen Level Anfänger, Mittel, Fortgeschritten und Gemischt, sodass Du Dich immer im richtigen Anforderungsniveau befindest.</p>
+            <p>&nbsp;</p>
+            <h3>Sexy Pole and Floor</h3>
+            <p>Ergänzend zu unserem Pole Dance Angebot bieten wir Dir zusätzlich die beiden Kurse Sexy Pole & Floor und Stretch. In diesen Trainingseinheiten stehen die Stärkung des Selbstbewusstseins, das Erlernen oder Verbessern des eigenen Körpergefühls und die Ermittlung der persönlichen körperlichen Grenzen im Mittelpunkt.</p>
+            <p>Sexy Pole & Floor zeichnet sich durch einen sexy und sinnlichen Tanz aus, in dem die bis dahin erlernten Pole Dance Bewegungen/Figuren mit Boden- und Choreografie-Elementen kombiniert werden. Du lernst Deinen Körper kontrolliert und sinnlich zu unterschiedlicher Musik zu bewegen. Von zentraler Bedeutung ist in diesem Kurs das Herausstellen Deiner Weiblichkeit, insbesondere durch laszive Bewegungsabläufe und High Heel Training.</p>
+            <p>&nbsp;</p>
+            <h3>Stretch</h3>
+            <p>In dem Zusatzkurs Stretch werden Elemente aus Yoga, Pilates, Ballett, Zirkus und dem traditionellen Kontorsionstraining in unterschiedlichen Übungen miteinander vereint. Durch diese werden deine Muskeln, Bänder und Sehnen sanft gedehnt, ohne die Gelenke zu belasten. Die Steigerung deiner ganzheitlichen Flexibilität steht dabei im Vordergrund, um eine saubere Ausführung der bisher erlernten Pole Dance Figuren zu vereinfachen und persönliche Ziele, wie bspw. Spagat, Brücke oder Ähnliches, zu erreichen.</p>
+            <p>Mit Hilfe diverser Hilfsgegenstände, wie Yogablöcke oder Yogagürtel, und ausgewählten Partnerübungen lernst Du in kontrollierten Bewegungsabläufen deine individuellen körperlichen Grenzen kennen und erweitern. Viele der erlernten Übungen kannst Du als Trainingsergänzung auch Zuhause durchführen.</p>
+            <p>&nbsp;</p><p>&nbsp;</p>
+            <h2>Kursplan</h2>
             <table class="table table-hover kurse">
                 <thead>
                     <th>MO</th>
@@ -24,34 +38,35 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>&nbsp;</td>
+                        <td><p>&nbsp;</p></td>
                         <td data-label="Dienstag">18 - 19 Uhr<br>Lady Soul (Eileen)</td>
                         <td data-label="Mittwoch">18 - 19 Uhr<br>Breakdance (Valéeri)</td>
-                        <td>&nbsp;</td>
+                        <td><p>&nbsp;</p></td>
                         <td data-label="Freitag">18 - 19 Uhr<br>Afro (Davis)</td>
-                        <td>&nbsp;</td>
+                        <td><p>&nbsp;</p></td>
                         <td data-label="Sonntag">17:30 - 18:30 Uhr<br>Pole Dance Fortgeschrittene (Carina)</td>
                     </tr>
                     <tr>
                         <td data-label="Montag">19:30 - 20:30 Uhr<br>Pole Dance Fortgeschrittene (Carina)</td>
                         <td data-label="Dienstag">19:15 - 20:15 Uhr<br>Contemporary (Eileen)</td>
-                        <td data-label="Mittwoch">19:30 - 20:30 Uhr<br>Pole Dance Fortgeschrittene/Mittel (Carina)</td>
+                        <td data-label="Mittwoch">19:30 - 20:30 Uhr<br>Pole Dance Fortgeschrittene / Mittel (Carina)</td>
                         <td data-label="Donnerstag">19:30 - 20:30 Uhr<br>Pole Dance gemischt (Carina)</td>
                         <td data-label="Freitag">19:15 - 20:15 Uhr<br>Akrobatik (Davis)</td>
-                        <td>&nbsp;</td>
+                        <td><p>&nbsp;</p></td>
                         <td data-label="Sonntag">18:30 - 19:30 Uhr<br>Pole Dance Mittel (Carina)</td>
                     </tr>
                     <tr>
                         <td data-label="Montag">20:30 - 21:30 Uhr<br>Stretching (Carina)</td>
                         <td data-label="Dienstag">20:30 - 21:30 Uhr<br>Akrobatik (Benno)</td>
-                        <td data-label="Mittwoch">20:30 - 21:30 Uhr<br>Pole Dance Mittel/Anfänger (Carina)</td>
+                        <td data-label="Mittwoch">20:30 - 21:30 Uhr<br>Pole Dance Mittel / Anfänger (Carina)</td>
                         <td data-label="Donnerstag">20:30 - 21:30 Uhr<br>Stretching (Carina)</td>
                         <td data-label="Freitag">20:30 - 21:30 Uhr<br>Sexy Pole and Floor (Carina)</td>
-                        <td>&nbsp;</td>
+                        <td><p>&nbsp;</p></td>
                         <td data-label="Sonntag">19:30 - 20:30 Uhr<br>Pole Dance Anfänger (Carina)</td>
                     </tr>
                 </tbod>
             </table>
+            <p>&nbsp;</p>
         </div>
     </section>
 
