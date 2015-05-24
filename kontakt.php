@@ -3,7 +3,7 @@
     <section class="jumbotron">
     	<div class="container">
     		<div class="row">
-                <div class="col-md-5">
+                <div class="col-md-6">
 			        <h2>Kontakt</h2>
 			        <p>Wir freunen uns auf Dich!</p>
 		    	</div>
@@ -18,13 +18,13 @@
                     <p>Tanzloft NRW<br>Sittarder Straße 63<br>41748 Viersen</p>
                     <p>Tel: 02133 - 23 42 23<br>E-Mail: <a href="mailto:info@tanzloft-nrw.de">info@tanzloft-nrw.de</a><br>41748 Viersen</p>
                 </div>
-                <div class="col-md-4">
+                <!--<div class="col-md-4">
                     <p>- gute parkmöglichkeiten</p>
                     <p>- gute verkehrsanbindung</p>
-                </div>
+                </div>-->
             </div>
             <hr>
-            <h2>Kontaktformular</h2>
+            <h2 id="kontaktformular">Kontaktformular</h2>
             <form>
                 <div class="form-group">
                     <label for="InputName">Name, Vorname</label>

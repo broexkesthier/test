@@ -55,15 +55,15 @@
     <section class="three-columns">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-sm-4">
                     <img src="img/pole_icon.png" />
                     <p>Pole Dance kann jeder lernen - auch Du!</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-4">
                     <img src="img/kalender_icon.png" />
                     <p>Workshop & Events</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-4">
                     <img src="img/profil_icon.png" />
                     <p>Junggesellinnenabschied bei uns feiern!</p>
                 </div>
@@ -73,10 +73,10 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6 hidden-xs">
                     <img class="img-responsive" title="Pole Dance" src="img/section_pole_dance.png" />
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <h2>Unsere etwas anderen Tanzkurse warten auf Dich!</h2>
                     <p>Bestimmt auch der perfekte Tanzkurz für Dich! Schau bei unseren Kursen vorbei und melde dich direkt zum nächsten Kurs bei uns zur Probestunde an.</p>
                     <p><a class="btn btn-default" role="button" href="<?=BASE?>kurse.php">Mehr lesen</a></p>
@@ -115,15 +115,15 @@
     <section>
         <div class="container wegbeschreibung">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <h2>Dein Weg zu uns!</h2>
                     <p>Ob mit dem Auto, Bus oder Bahn - wir sind schnell erreichbar!</p>
                     <p>Tanzloft NRW<br>
                     Sittarder Straße 63<br>
                     41748 Viersen</p>
-                    <p><a class="btn btn-default" href="<?=BASE?>anfahrt.php" role="button">Mehr lesen</a></p>
+                    <p><a class="btn btn-default" href="<?=BASE?>kontakt.php" role="button">Mehr lesen</a></p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6 hidden-xs">
                     <img class="img-responsive" title="Wegbeschreibung" src="img/section_wegbeschreibung.png" />
                 </div>
             </div>

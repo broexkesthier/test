@@ -15,13 +15,13 @@
                             <h4>ÜBER UNS</h4>
                             <ul>
                                 <li><a href="<?=BASE?>ueber-uns.php">Tanzloft</a></li>
-                                <li><a href="<?=BASE?>ueber-uns.php">Räumlichkeiten</a></li>
+                                <li><a href="<?=BASE?>ueber-uns.php#raeumlichkeiten">Räumlichkeiten</a></li>
                             </ul>
                             <br>
                             <h4>KURSE</h4>
                             <ul> 
                                 <li><a href="<?=BASE?>kurse.php">Kurse</a></li>
-                                <li<a href="<?=BASE?>kurse.php">Kursplan</a></li>
+                                <li><a href="<?=BASE?>kurse.php#kursplan">Kursplan</a></li>
                             </ul>
                         </div>
                         <div class="col-md-3">
@@ -40,7 +40,7 @@
                             <h4>KONTAKT</h4>
                             <ul>
                                 <li><a href="<?=BASE?>kontakt.php">Anfahrt</a></li>
-                                <li><a href="<?=BASE?>kontakt.php">Kontaktformular</a></li>
+                                <li><a href="<?=BASE?>kontakt.php#kontaktformular">Kontaktformular</a></li>
                             </ul>
                         </div>
                     </div>
