@@ -146,7 +146,7 @@ section p {
 	font-size: 14px;
 	line-height: 18px;
 }
-section .col-sm-4 {
+.three-columns .col-sm-4 {
 	margin-bottom: 20px;
 	text-align: center;
 }
