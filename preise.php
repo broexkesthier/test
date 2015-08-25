@@ -60,53 +60,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <h2>Tanzkurse</h2>
-                    <div class="row">
-                        <div class="col-xs-10">
-                            <p>1 x wöchentlich 60 Minuten (non-Pole)</p>
-                        </div>
-                        <div class="col-xs-2">
-                            <p>30€</p>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col-xs-10">
-                            <p>2 x wöchentlich 60 Minuten (non-Pole)</p>
-                        </div>
-                        <div class="col-xs-2">
-                            <p>55€</p>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col-xs-10">
-                            <p>3 x wöchentlich 60 Minuten (non-Pole)</p>
-                        </div>
-                        <div class="col-xs-2">
-                            <p>75€</p>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col-xs-10">
-                            <p>60 Minuten (non-Pole) Flat</p>
-                        </div>
-                        <div class="col-xs-2">
-                            <p>99€</p>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col-xs-10">
-                            <p>Allgemeine Flat (Pole + non-Pole)</p>
-                        </div>
-                        <div class="col-xs-2">
-                            <p>179€</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>

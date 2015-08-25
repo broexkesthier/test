@@ -64,7 +64,7 @@
                     <p>Workshop & Events</p>
                 </div>
                 <div class="col-sm-4">
-                    <img src="img/profil_icon.png" />
+                    <img src="img/junggesellinnenabschied_icon.png" />
                     <p>Junggesellinnenabschied bei uns feiern!</p>
                 </div>
             </div>

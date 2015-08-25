@@ -36,49 +36,53 @@
             <table class="table table-hover kurse">
                 <thead>
                     <tr>
-                        <th><p>MO</p></th>
-                        <th><p>DI</p></th>
-                        <th><p>MI</p></th>
-                        <th><p>DO</p></th>
-                        <th><p>FR</p></th>
-                        <th><p>SA</p></th>
-                        <th><p>SO</p></th>
-                    </tr>
+                        <th><p>&nbsp;</p></th>
+                    <th>MO</th>
+                    <th>DI</th>
+                    <th>MI</th>
+                    <th>DO</th>
+                    <th>FR</th>
+                    <th>SA</th>
+                    <th>SO</th>
                 </thead>
                 <tbody>
                     <tr>
+                        <td>17:30 - 18:30</td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
-                        <td data-label="Sonntag"><p>17:30 - 18:30 Uhr<br>Pole Dance Fortgeschrittene (Carina)</p></td>
+                        <td data-label="Sonntag">Pole Dance Fortgeschrittene</td>
                     </tr>
                     <tr>
+                        <td>18:30 - 19:30</td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
-                        <td data-label="Sonntag"><p>18:30 - 19:30 Uhr<br>Pole Dance Mittel (Carina)</p></td>
+                        <td data-label="Sonntag">Pole Dance Mittel</td>
                     </tr>
                     <tr>
-                        <td data-label="Montag"><p>19:30 - 20:30 Uhr<br>Pole Dance Fortgeschrittene (Carina)</p></td>
+                        <td>19:30 - 19:30</td>
+                        <td data-label="Montag">Pole Dance Fortgeschrittene</td>
                         <td><p>&nbsp;</p></td>
-                        <td data-label="Mittwoch"><p>19:30 - 20:30 Uhr<br>Pole Dance Fortgeschrittene / Mittel (Carina)</p></td>
-                        <td data-label="Donnerstag"><p>19:30 - 20:30 Uhr<br>Pole Dance gemischt (Carina)</p></td>
+                        <td data-label="Mittwoch">Pole Dance gemischt</td>
+                        <td data-label="Donnerstag">Pole Dance gemischt</td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
-                        <td data-label="Sonntag"><p>19:30 - 20:30 Uhr<br>Pole Dance Anfänger (Carina)</p></td>
+                        <td data-label="Sonntag">Pole Dance Anfänger</td>
                     </tr>
                     <tr>
-                        <td data-label="Montag"><p>20:30 - 21:30 Uhr<br>Stretching (Carina)</p></td>
+                        <td>20:30 - 20:30</td>
+                        <td data-label="Montag">Stretching</td>
                         <td><p>&nbsp;</p></td>
-                        <td data-label="Mittwoch"><p>20:30 - 21:30 Uhr<br>Pole Dance Mittel / Anfänger (Carina)</p></td>
-                        <td data-label="Donnerstag"><p>20:30 - 21:30 Uhr<br>Stretching (Carina)</p></td>
-                        <td data-label="Freitag"><p>20:30 - 21:30 Uhr<br>Sexy Pole and Floor (Carina)</p></td>
+                        <td data-label="Mittwoch">Sexy Pole and Floor</td>
+                        <td data-label="Donnerstag">Stretching</td>
+                        <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                     </tr>

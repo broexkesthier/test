@@ -208,8 +208,10 @@ table p {
 .item {
 	width: 80%;
 	margin-left: 10%;
+	text-align: center;
 }
 .item .col-md-6 { margin-top: 0 !important; }
+.item h3 { font-size: 30px; }
 .carousel-control {
 	width: 5%;
 	font-size: 24px;
@@ -224,7 +226,10 @@ table p {
 /* 3-SPALTEN */
 .three-columns .row { margin-bottom: 30px; }
 .three-columns .col-md-4 { text-align: center; }
-.three-columns .col-md-4 img { margin-bottom: 30px; }
+.three-columns .col-md-4 img {
+	width: 195px;
+	margin-bottom: 30px;
+}
 .three-columns p { font-family: 'dejavu_sanscondensed'; }
 /*.three-columns .col-md-4 p { text-align: left; }*/
 
@@ -334,7 +339,7 @@ footer a:focus {
 	.kurse th:last-child,
 	.kurse td:last-child { border-right: 0; }
 	.kurse td {
-		height: 120px;
+		height: 68px;
 		display: block;
 	}
 	.kurse th { padding-left: 10px; }
@@ -362,5 +367,5 @@ footer a:focus {
 	.kurse th:nth-of-type(6),
 	.kurse td:nth-of-type(6) { display: inherit; }
 	.kurse th,
-	.kurse td { width: 14.28571428571429%; }
+	.kurse td { width: 12.5%; }
 }
