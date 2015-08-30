@@ -91,6 +91,8 @@
                     <label for="TextareaNachricht">Ihre Nachricht</label>
                     <textarea name="text" class="form-control" rows="3" id="TextareaNachricht"><?php echo $text; ?></textarea>
                 </div>
+                <p>Sicherheitscode</p>
+                <img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" /><span class="refresh"></span>
                 <p>Geben Sie hier die Lösung der Rechnung ein:</p>
                  <input type="text" name="captcha_code" maxlength="6" <?php if($captchaErr){echo 'class="wrong"';} ?>/>
                 <?php
