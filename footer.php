@@ -2,7 +2,7 @@
             <section>
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-sm-4">
                             <h3>Tanloft NRW</h3>
                             <ul class="footer-contact">
                                 <li class="home">Tanzloft NRW<br>Sittarder Straße 63<br>41748 Viersen</li>
@@ -11,7 +11,7 @@
                                 <li class="link"><a href="index.php">www.tanzloft-nrw.de</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-sm-4">
                             <h4>ÜBER UNS</h4>
                             <ul>
                                 <li><a href="<?=BASE?>ueber-uns.php">Tanzloft</a></li>
@@ -24,19 +24,12 @@
                                 <li><a href="<?=BASE?>kurse.php#kursplan">Kursplan</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-sm-4">
                             <h4>PREISE</h4>
                             <ul>
                                 <li><a href="<?=BASE?>preise.php">Preisliste</a></li>
                             </ul>
                             <br>
-                            <h4>Termine</h4>
-                            <ul>
-                                <li><a href="<?=BASE?>termine.php">Workshops</a></li>
-                                <li><a href="<?=BASE?>termine.php">Events</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
                             <h4>KONTAKT</h4>
                             <ul>
                                 <li><a href="<?=BASE?>kontakt.php">Anfahrt</a></li>

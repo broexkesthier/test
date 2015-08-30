@@ -14,7 +14,7 @@
 			<div class="container content ueber-uns">
 				<div class="row">
 					<div class="col-sm-5 hidden-xs">
-						<img src="<?=IMG?>gallery_teaser_01.png" class="img-responsive" title="Räumlichkeiten" width="350" />
+						<img src="<?=IMG?>tanzloft.png" class="img-responsive" title="Tanzloft" width="350" />
 					</div>
 					<div class="col-sm-7">
 						<h2>Was Tanzloft besonders macht</h2>
@@ -27,14 +27,15 @@
 						<p>Wir freuen uns auf Dich!</p>
 					</div>
 				</div>
+				<h2>Die Räumlichkeiten</h2>
 				<div class="row" id="raeumlichkeiten">
-				<div class="col-sm-7">
-					<h2>Die Räumlichkeiten</h2>
-					<p>Unsere 145 m&sup2; große Räumlichkeit ist in unkonventionellem Industriestyle gestaltet und wird durch die zahlreichen hohen Fenster von Licht durchflutet.</p>
-					<p>Neben einer großen Tanzfläche, mehreren Pole Dance Stangen und einer Pole Stage bietet unser Tanzstudio ausreichend Platz für eine gemütliche Sitz-Couch und weitere Sitzgelegenheiten. Für die jeweiligen Tanzkurse werden Trainings-Matten und weiteres Zubehör bereitgestellt.  Unsere klangstarke Musikanlage sorgt stets für die richtige Atmosphäre.</p>
-				</div>
-				<div class="col-sm-5 hidden-xs">
-					<img src="<?=IMG?>gallery_teaser_01.png" class="img-responsive" title="Räumlichkeiten" width="350" />
+					<div class="col-sm-7">
+						<p>Unsere 145 m&sup2; große Räumlichkeit ist in unkonventionellem Industriestyle gestaltet und wird durch die zahlreichen hohen Fenster von Licht durchflutet.</p>
+						<p>Neben einer großen Tanzfläche, mehreren Pole Dance Stangen und einer Pole Stage bietet unser Tanzstudio ausreichend Platz für eine gemütliche Sitz-Couch und weitere Sitzgelegenheiten. Für die jeweiligen Tanzkurse werden Trainings-Matten und weiteres Zubehör bereitgestellt.  Unsere klangstarke Musikanlage sorgt stets für die richtige Atmosphäre.</p>
+					</div>
+					<div class="col-sm-5 hidden-xs">
+						<img src="<?=IMG?>raeumlichkeiten.png" class="img-responsive" title="Räumlichkeiten" width="350" />
+					</div>
 				</div>
 			</div>
 		</div>
