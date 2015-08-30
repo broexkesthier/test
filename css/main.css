@@ -201,15 +201,21 @@ table p {
 	top: 5px;
 	left: 8px;
 }
+.kurse th:nth-of-type(3),
+.kurse td:nth-of-type(3),
 .kurse th:nth-of-type(6),
-.kurse td:nth-of-type(6) { display: none; }
+.kurse td:nth-of-type(6),
+.kurse th:nth-of-type(7),
+.kurse td:nth-of-type(7)  { display: none; }
 
 /* CAROUSEL */
 .item {
 	width: 80%;
 	margin-left: 10%;
+	text-align: center;
 }
-.item .col-md-6 { margin-top: 0 !important; }
+.item .col-sm-6 { margin-top: 0 !important; }
+.item h3 { font-size: 30px; }
 .carousel-control {
 	width: 5%;
 	font-size: 24px;
@@ -223,15 +229,20 @@ table p {
 
 /* 3-SPALTEN */
 .three-columns .row { margin-bottom: 30px; }
-.three-columns .col-md-4 { text-align: center; }
-.three-columns .col-md-4 img { margin-bottom: 30px; }
+.three-columns .col-sm-4 { text-align: center; }
+.three-columns .col-sm-4 img {
+	width: 195px;
+	margin-bottom: 30px;
+}
 .three-columns p { font-family: 'dejavu_sanscondensed'; }
-/*.three-columns .col-md-4 p { text-align: left; }*/
+/*.three-columns .col-sm-4 p { text-align: left; }*/
 
 /* UEBER UNS */
-.col-md-1 img {
+.col-sm-1 img {
 	width: 100%;
 }
+.content .row { margin-bottom: 40px; }
+.content.preise .row { margin-bottom: 0; }
 
 /* FOOTER */
 footer { color: #fff; }
@@ -309,7 +320,7 @@ footer a:focus {
 	section:nth-child(odd) .content .col-sm-6:first-child { margin-top: 0; }
 	.wegbeschreibung { margin-top: 110px; }
 	.wegbeschreibung .col-sm-6:first-child { margin-top: -80px !important; }
-	footer .col-md-3 {
+	footer .col-sm-3 {
 		width: 25%;
 		float: left;
 	}
@@ -319,12 +330,14 @@ footer a:focus {
 		display: table;
 		width: 100%;
 	}
+	.kurse th:first-child,
+	.kurse td:first-child { width: 10%; }
 	.kurse th,
 	.kurse td {
 		font-size: 16px;
-		display: inherit;
+		display: inline-block;
 		float: left;
-		width: 16.66666666666667%;
+		width: 22.5%;
 		border-right: 1px solid #ddd;
 	}
 	.kurse td[data-label] {
@@ -334,10 +347,12 @@ footer a:focus {
 	.kurse th:last-child,
 	.kurse td:last-child { border-right: 0; }
 	.kurse td {
-		height: 120px;
+		height: 68px;
 		display: block;
 	}
 	.kurse th { padding-left: 10px; }
+	.kurse td[data-label] { padding-top: 8px; }
+	.col-sm-5.hidden-xs { text-align: center; }
 	footer section:nth-child(odd) {
 		display: block;
 		font-size: 14px;
@@ -356,11 +371,16 @@ footer a:focus {
 		width: 100%;
 		margin-left: 0;
 	}
-	.item .col-md-3 { margin-top: 120px; }
+	.item .col-sm-3 { margin-top: 120px; }
 	.wegbeschreibung { margin-top: 80px; }
 	.wegbeschreibung .col-sm-6:first-child { margin-top: -30px !important; }
+	.wegbeschreibung .col-sm-6:last-child { margin-top: 0 !important; }
+	.kurse th:nth-of-type(3),
+	.kurse td:nth-of-type(3),
 	.kurse th:nth-of-type(6),
-	.kurse td:nth-of-type(6) { display: inherit; }
+	.kurse td:nth-of-type(6),
+	.kurse th:nth-of-type(7),
+	.kurse td:nth-of-type(7) { display: inline-block; }
 	.kurse th,
-	.kurse td { width: 14.28571428571429%; }
+	.kurse td { width: 12.85714285714286%; }
 }

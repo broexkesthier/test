@@ -7,34 +7,34 @@
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <div class="row">
-                            <div class="col-md-3 col-md-offset-1">
+                            <div class="col-sm-3 col-sm-offset-1">
                                 <h3>Leidenschaft</h3>
                                 <p>Lebe deinen Traum!</p>
                             </div>
-                            <div class="col-md-6 col-md-offset-1">
+                            <div class="col-sm-6 col-sm-offset-1">
                                 <img class="img-responsive" title="Teaser" src="img/gallery_teaser_01.png" />
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="row">
-                            <div class="col-md-3 col-md-offset-1">
+                            <div class="col-sm-3 col-sm-offset-1">
                                 <h3>Spaß</h3>
                                 <p>Genieße dein Leben!</p>
                             </div>
-                            <div class="col-md-6 col-md-offset-1">
-                                <img class="img-responsive" title="Teaser" src="img/gallery_teaser_01.png" />
+                            <div class="col-sm-6 col-sm-offset-1">
+                                <img class="img-responsive" title="Teaser" src="img/gallery_teaser_02.png" />
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="row">
-                            <div class="col-md-3 col-md-offset-1">
+                            <div class="col-sm-3 col-sm-offset-1">
                                 <h3>Vitalität!</h3>
                                 <p>Gesundheit für Körper, Geist & Seele!</p>
                             </div>
-                            <div class="col-md-6 col-md-offset-1">
-                                <img class="img-responsive" title="Teaser" src="img/gallery_teaser_01.png" />
+                            <div class="col-sm-6 col-sm-offset-1">
+                                <img class="img-responsive" title="Teaser" src="img/gallery_teaser_03.png" />
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                     <p>Workshop & Events</p>
                 </div>
                 <div class="col-sm-4">
-                    <img src="img/profil_icon.png" />
+                    <img src="img/junggesellinnenabschied_icon.png" />
                     <p>Junggesellinnenabschied bei uns feiern!</p>
                 </div>
             </div>
@@ -87,12 +87,12 @@
     <!--<section>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <h2>Verschiedene Tanzkurse warten auf Dich!</h2>
                     <p>Von Xasds zu Wadsdsa ist alles dabei. Bestimmt auch der perfekte Tanzkurz für Dich!</p>
                     <p><a class="btn btn-default" href="#" role="button">Mehr lesen</a></p>
                 </div>
-                <div class="col-md-5 col-md-offset-1">
+                <div class="col-sm-5 col-sm-offset-1">
                     <img class="img-responsive" title="Tanzkurse" src="img/section_tanzkurse.png" />
                 </div>
             </div>
@@ -101,10 +101,10 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <img class="img-responsive" title="Pole Dance" src="img/section_pole_dance_2.png" />
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <h2>Pole Dance kann jeder lernen - auch Du!</h2>
                     <p>Du denkst du bist unbeweglich, du wirst niemals einen Spagat können und Körperspannung aufbauen. Falsch! Komm in meine Schnupperstunde und überzeuge Dich selber, das auch du das Zeug dazu hast Pole Dance zu lernen.</p>
                     <p><a class="btn btn-default" href="#" role="button">Mehr lesen</a></p>
