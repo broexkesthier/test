@@ -57,15 +57,15 @@
             <div class="row">
                 <div class="col-sm-4">
                     <img src="img/pole_icon.png" />
-                    <p>Pole Dance kann jeder lernen - auch Du!</p>
+                    <p><strong>Pole Dance kann jeder lernen - auch Du!</strong></p>
                 </div>
                 <div class="col-sm-4">
                     <img src="img/kalender_icon.png" />
-                    <p>Workshop & Events</p>
+                    <p><strong>Workshop & Events</strong></p>
                 </div>
                 <div class="col-sm-4">
                     <img src="img/junggesellinnenabschied_icon.png" />
-                    <p>Junggesellinnenabschied bei uns feiern!</p>
+                    <p><strong>Junggesellinnenabschied bei uns feiern!</strong></p>
                 </div>
             </div>
         </div>

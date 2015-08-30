@@ -1,4 +1,52 @@
-<?php include 'head.php'; ?>
+<?php
+
+    include_once 'functions.php';
+    
+    if(isset($_POST['name']))    {$name =  strip_tags($_POST['name']);    }else{$name  = '';}
+    if(isset($_POST['email']))   {$email = strip_tags($_POST['email']);   }else{$email = '';}
+    if(isset($_POST['telefon'])) {$email = strip_tags($_POST['telefon']); }else{$telefon = '';}
+    if(isset($_POST['text']))    {$text =  strip_tags($_POST['text']);    }else{$text  = '';}
+    
+    $mailOk = false;
+    
+    if(
+        $name != '' && 
+        $email != '' && checkEmail($email) &&
+        $text != '' && 
+        isset($_POST['captcha_code'])
+    ){
+        $captchaErr = true;
+        include_once 'securimage/securimage.php';
+        $securimage = new Securimage();
+        if($securimage->check($_POST['captcha_code'])){
+            $captchaErr = false;
+            $mailOk = true;
+            
+            $from_name = 'Tanzloft Kontaktformular';
+            $from_email = 'f- broexkes.thier@gmail.com';
+            $to_email = 'broexkes.thier@gmail.com';
+            $subject = 'Kontaktaufnahme von "'.$name.' über die Webseite"';
+            $text_message = 
+                "Name: '".$name."'\n
+                E-Mail: '".$email."'\n
+                Telefonnummer: '".$telefon."'\n
+                Nachricht:\n
+                -----------------------\n
+                ".$text."
+                -----------------------\n";
+            $html_message = 
+                "Name: '".$name."<br />
+                E-Mail: '".$email."<br />
+                elefonnummer: '".$telefon."<br />
+                Nachricht:<br />
+                <hr />
+                ".str_replace("\n",'<br />',$text)."
+                <hr />";
+            sendHTMLmail($from_name, $from_email, $to_email, $subject, $text_message, $html_message);
+        }
+    }
+
+ include 'head.php'; ?>
 
     <section class="jumbotron">
     	<div class="container">
@@ -12,6 +60,7 @@
     </section>
     <section>
         <div class="container content">
+            <?php if(!$mailOk){ ?>
             <h2>Anschrift</h2>
             <div class="row">
                 <div class="col-md-8">
@@ -25,26 +74,46 @@
             </div>
             <hr>
             <h2 id="kontaktformular">Kontaktformular</h2>
-            <form>
+            <form name="contactForm" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" onsubmit="return validateContactForm();">
                 <div class="form-group">
                     <label for="InputName">Name, Vorname</label>
-                    <input type="text" class="form-control" id="InputName" placeholder="Name, Vorname">
+                    <input type="text" class="form-control" id="InputName" placeholder="Name, Vorname" name="name" value="<?php echo $name; ?>">
                 </div>
                 <div class="form-group">
                     <label for="InputEmail">E-Mail Adresse</label>
-                    <input type="email" class="form-control" id="InputEmail" placeholder="E-Mail Adresse">
+                    <input type="email" class="form-control" id="InputEmail" placeholder="E-Mail Adresse" name="email" value="<?php echo $email; ?>">
                 </div>
                 <div class="form-group">
                     <label for="InputTelefon">Telefon</label>
-                    <input type="number" class="form-control" id="InputTelefon" placeholder="Telefon">
+                    <input type="tel" class="form-control" id="InputTelefon" placeholder="Telefon" name="telefon" value="<?php echo $telefon; ?>">
                 </div>
                 <div class="form-group">
                     <label for="TextareaNachricht">Ihre Nachricht</label>
-                    <textarea class="form-control" rows="3" id="TextareaNachricht"></textarea>
+                    <textarea name="text" class="form-control" rows="3" id="TextareaNachricht"><?php echo $text; ?></textarea>
                 </div>
-                <button type="submit" class="btn btn-default">Absenden</button>
+                <p>Geben Sie hier die Lösung der Rechnung ein:</p>
+                 <input type="text" name="captcha_code" maxlength="6" <?php if($captchaErr){echo 'class="wrong"';} ?>/>
+                <?php
+                    if($captchaErr){
+                        echo '<br />Ups, der eingegebene Code war falsch. Versuch es noch einmal!';
+                    }
+                ?>
+                <p>
+                    <input type="submit" value="Absenden"  class="btn btn-default" />
+                    <input type="reset" value="Zurücksetzen" class="btn btn-default" />
+                </p>
             </form>
+
+            <?php }else{ ?>
+                <h2>Vielen Dank, <?php echo $name; ?>.</h2>
+                Die Nachricht wurde erfolgreich verschickt.
+            <?php } ?>
         </div>
     </section>
+
+
+
+
+   
    
 <?php include 'footer.php'; ?>  

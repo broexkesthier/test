@@ -152,7 +152,6 @@ section p {
 }
 section .col-sm-4 p {
 	font-size: 16px;
-	font-weight: bold;
 	line-height: 20px;
 }
 section .col-sm-4 img {
@@ -231,7 +230,7 @@ table p {
 .three-columns .row { margin-bottom: 30px; }
 .three-columns .col-sm-4 { text-align: center; }
 .three-columns .col-sm-4 img {
-	width: 195px;
+	width: 120px;
 	margin-bottom: 30px;
 }
 .three-columns p { font-family: 'dejavu_sanscondensed'; }
