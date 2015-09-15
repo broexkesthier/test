@@ -53,7 +53,7 @@
     		<div class="row">
                 <div class="col-md-6">
 			        <h2>Kontakt</h2>
-			        <p>Wir freunen uns auf Dich!</p>
+			        <p>Wir freuen uns auf Dich!</p>
 		    	</div>
 	    	</div>
     	</div>

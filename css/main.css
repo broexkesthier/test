@@ -314,6 +314,7 @@ footer a:focus {
 	.nav > li > a:hover,
 	.nav > li > a:focus { background-color: transparent; }
 	.content .row { margin-bottom: 20px; }
+	.jumbotron { padding: 30px 0; }
 	section:nth-child(even) .col-sm-6:last-child,
 	section:nth-child(odd) .col-sm-6:first-child { margin-top: 50px; }
 	section:nth-child(odd) .content .col-sm-6:first-child { margin-top: 0; }
@@ -370,7 +371,7 @@ footer a:focus {
 		width: 100%;
 		margin-left: 0;
 	}
-	.item .col-sm-3 { margin-top: 120px; }
+	.item .col-sm-3 { margin-top: 220px; }
 	.wegbeschreibung { margin-top: 80px; }
 	.wegbeschreibung .col-sm-6:first-child { margin-top: -30px !important; }
 	.wegbeschreibung .col-sm-6:last-child { margin-top: 0 !important; }
