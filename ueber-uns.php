@@ -14,7 +14,7 @@
 			<div class="container content ueber-uns">
 				<div class="row">
 					<div class="col-sm-5 hidden-xs">
-						<img src="<?=IMG?>tanzloft.png" class="img-responsive" title="Tanzloft" width="350" />
+						<img src="<?=IMG?>tanzloft.png" class="img-responsive" title="Tanzloft" height="350" />
 					</div>
 					<div class="col-sm-7">
 						<h2>Was Tanzloft besonders macht</h2>
