@@ -33,6 +33,9 @@
 
         <link rel="stylesheet" href="<?=CSS?>bootstrap.min.css">
         <link rel="stylesheet" href="<?=CSS?>bootstrap-theme.min.css">
+        <link rel="stylesheet" href="<?=CSS?>FooTable.FontAwesome.css">
+        <link rel="stylesheet" href="<?=CSS?>FooTable.Glyphicons.css">
+        <link rel="stylesheet" href="<?=CSS?>FooTable.css">
         <link rel="stylesheet" href="<?=CSS?>main.css">
 
         <script src="<?=JS?>vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>

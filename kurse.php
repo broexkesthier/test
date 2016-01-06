@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <h2>Kurse</h2>
-                    <p>Hier findest du Informationen zu den verschiedenen Kursen und unseren Kursplan.</p>
+                    <p>Hier findest Du Informationen zu den verschiedenen Kursen und unseren Kursplan.</p>
                 </div>
             </div>
         </div>
@@ -20,9 +20,9 @@
                 <p>Unterteilt wird das Pole Training in die verschiedenen Level Anfänger, Mittel, Fortgeschritten und Gemischt, sodass Du Dich immer im richtigen Anforderungsniveau befindest.</p>
             </div>
             <div class="col-sm-4">
-                <h3>Sexy Pole and Floor</h3>
-                <p>Ergänzend zu unserem Pole Dance Angebot bieten wir Dir zusätzlich die beiden Kurse Sexy Pole & Floor und Stretch. In diesen Trainingseinheiten stehen die Stärkung des Selbstbewusstseins, das Erlernen oder Verbessern des eigenen Körpergefühls und die Ermittlung der persönlichen körperlichen Grenzen im Mittelpunkt.</p>
-                <p>Sexy Pole & Floor zeichnet sich durch einen sexy und sinnlichen Tanz aus, in dem die bis dahin erlernten Pole Dance Bewegungen/Figuren mit Boden- und Choreografie-Elementen kombiniert werden. Du lernst Deinen Körper kontrolliert und sinnlich zu unterschiedlicher Musik zu bewegen. Von zentraler Bedeutung ist in diesem Kurs das Herausstellen Deiner Weiblichkeit, insbesondere durch laszive Bewegungsabläufe und High Heel Training.</p>
+                <h3>Pole Choreo</h3>
+                <p>Ergänzend zu unserem Pole Dance Angebot bieten wir Dir zusätzlich die beiden Pole Choreo und Stretch. In diesen Trainingseinheiten stehen die Stärkung des Selbstbewusstseins, das Erlernen oder Verbessern des eigenen Körpergefühls und die Ermittlung der persönlichen körperlichen Grenzen im Mittelpunkt.</p>
+                <p>Pole Choreo zeichnet sich durch einen sexy und sinnlichen Tanz aus, in dem die bis dahin erlernten Pole Dance Bewegungen/Figuren mit Boden- und Choreografie-Elementen kombiniert werden. Du lernst Deinen Körper kontrolliert und sinnlich zu unterschiedlicher Musik zu bewegen. Von zentraler Bedeutung ist in diesem Kurs das Herausstellen Deiner Weiblichkeit, insbesondere durch laszive Bewegungsabläufe und High Heel Training.</p>
             </div>
             <div class="col-sm-4">
                 <h3>Stretch</h3>
@@ -31,7 +31,7 @@
             </div>
         </div>
             <h2 id="kursplan">Kursplan</h2>
-            <table class="table table-hover kurse">
+            <table class="table visible-md visible-lg table-hover kurse">
                 <thead>
                     <tr>
                         <th>&nbsp;</th>
@@ -46,47 +46,90 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>17:30 -<br>18:30</td>
+                        <td>17:30 - 18:30</td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
-                        <td data-label="Sonntag um 17:30 - 18:30">Pole Dance Fortgeschrittene</td>
+                        <td>Pole Dance Fortgeschrittene</td>
                     </tr>
                     <tr>
-                        <td>18:30 -<br>19:30</td>
+                        <td>18:30 - 19:30</td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
-                        <td data-label="Sonntag um 18:30 - 19:30">Pole Dance Mittel</td>
+                        <td>Pole Dance Mittel</td>
                     </tr>
                     <tr>
-                        <td>19:30 -<br>20:30</td>
-                        <td data-label="Montag um 19:30 - 20:30">Pole Dance Fortgeschrittene</td>
+                        <td>19:30 - 20:30</td>
+                        <td>Pole Dance Fortgeschrittene</td>
                         <td><p>&nbsp;</p></td>
-                        <td data-label="Mittwoch um 19:30 - 20:30">Pole Dance gemischt</td>
-                        <td data-label="Donnerstag um 19:30 - 20:30">Pole Dance gemischt</td>
+                        <td>Pole Dance gemischt</td>
+                        <td >Pole Dance gemischt</td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
-                        <td data-label="Sonntag um 19:30 - 20:30">Pole Dance Anfänger</td>
+                        <td>Pole Dance Anfänger</td>
                     </tr>
                     <tr>
-                        <td>20:30 -<br>21:30</td>
-                        <td data-label="Montag um 20:30 - 21:30">Stretching</td>
+                        <td>20:30 - 21:30</td>
+                        <td>Stretching</td>
                         <td><p>&nbsp;</p></td>
-                        <td data-label="Mittwoch um 20:30 - 21:30">Sexy Pole and Floor</td>
-                        <td data-label="Donnerstag um 20:30 - 21:30">Stretching</td>
+                        <td>Sexy Pole and Floor</td>
+                        <td>Stretching</td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                         <td><p>&nbsp;</p></td>
                     </tr>
                 </tbody>
             </table>
+            <div class="visible-xs-block visible-sm-block">
+                <table class="table footable table-hover kurse">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th data-breakpoints="xs sm">17:30 - 18:30</th>
+                            <th data-breakpoints="xs sm">18:30 - 19:30</th>
+                            <th data-breakpoints="xs sm">19:30 - 20:30</th>
+                            <th data-breakpoints="xs sm">20:30 - 21:30</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Montag</td>
+                            <td><p>&nbsp;</p></td>
+                            <td><p>&nbsp;</p></td>
+                            <td>Pole Dance Fortgeschrittene</td>
+                            <td>Stretching</td>
+                        </tr>
+                        <tr>
+                            <td>Mittwoch</td>
+                            <td><p>&nbsp;</p></td>
+                            <td><p>&nbsp;</p></td>
+                            <td>Pole Dance gemischt</td>
+                            <td>Pole Choreo</td>
+                        </tr>
+                        <tr>
+                            <td>Donnerstag</td>
+                            <td><p>&nbsp;</p></td>
+                            <td><p>&nbsp;</p></td>
+                            <td>Pole Dance gemischt</td>
+                            <td>Stretching</td>
+                        </tr>
+                        <tr>
+                            <td>Sonntag</td>
+                            <td>Pole Dance Fortgeschrittene</td>
+                            <td>Pole Dance Mittel</td>
+                            <td>Pole Dance Anfänger</td>
+                            <td><p>&nbsp;</p></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </section>
 

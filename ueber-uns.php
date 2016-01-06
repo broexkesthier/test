@@ -5,7 +5,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<h2>Über uns</h2>
-					<p>Hier findest du Informationen über unser Tanzloft.</p>
+					<p>Hier findest Du Informationen über unser Tanzloft.</p>
 				</div>
 			</div>
 		</div>

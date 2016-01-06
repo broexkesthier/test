@@ -105,22 +105,22 @@ header {
 	border-color: #975d80;
 }
 section:nth-child(even) .btn-default {
-	background-image: -webkit-linear-gradient(top,#41978c 0,#2e746b 100%);
-	background-image: -o-linear-gradient(top,#41978c 0,#2e746b 100%);
-	background-image: -webkit-gradient(linear,left top,left bottom,from(#41978c),to(#2e746b));
-	background-image: linear-gradient(to bottom,#41978c 0,#2e746b 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#41978c', endColorstr='#2e746b', GradientType=0);
+	background-image: -webkit-linear-gradient(top,#41978c 0,#8fd8cd 100%);
+	background-image: -o-linear-gradient(top,#41978c 0,#8fd8cd 100%);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#41978c),to(#8fd8cd));
+	background-image: linear-gradient(to bottom,#41978c 0,#8fd8cd 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#41978c', endColorstr='#8fd8cd', GradientType=0);
 	border-color: #41978c;
 }
 section:nth-child(even) .btn-default:hover,
-section:nth-child(even) .btn-default:focus { background-color: #2e746b }
+section:nth-child(even) .btn-default:focus { background-color: #8fd8cd }
 section:nth-child(even) .btn-default:hover,
 section:nth-child(even) .btn-default:focus,
 section:nth-child(even) .btn-default.focus,
 section:nth-child(even) .btn-default:active,
 section:nth-child(even) .btn-default.active,
 section:nth-child(even) .open > .dropdown-toggle.btn-default { 
-	background-color: #2e746b;
+	background-color: #8fd8cd;
 	border-color: #41978c;
 }
 
@@ -165,7 +165,7 @@ section:nth-child(even) .col-sm-6:first-child { text-align: center; }
 section:nth-child(even) .col-sm-6:last-child,
 section:nth-child(odd) .col-sm-6:first-child { margin: 20px 0; }
 .ueber-uns .col-sm-6:first-child { margin-top: 0 !important; }
-section:nth-child(even) h2 { color: #2e746b; padding: 0 0 15px 0; }
+section:nth-child(even) h2 { color: #8fd8cd; padding: 0 0 15px 0; }
 section:nth-child(odd) h2 { color: #6d1b4c; padding: 0 0 15px 0; }
 
 /* JUMBOTRON */
@@ -181,32 +181,14 @@ section:nth-child(odd) h2 { color: #6d1b4c; padding: 0 0 15px 0; }
 }
 
 /* TABLE */
-table th,
-table td { width: 100%; }
 table p {
 	padding: 8px;
 	margin-bottom: 0;
 }
-.kurse thead,
-.kurse td { display: none; }
-.kurse td[data-label] {
-	display: block;
-	position: relative;
-	padding: 30px 0 8px 0;
-}
-.kurse td:before {
-	content: attr(data-label);
-	font-weight: bold;
-	position: absolute;
-	top: 5px;
-	left: 8px;
-}
-.kurse th:nth-of-type(3),
-.kurse td:nth-of-type(3),
-.kurse th:nth-of-type(6),
-.kurse td:nth-of-type(6),
-.kurse th:nth-of-type(7),
-.kurse td:nth-of-type(7)  { display: none; }
+
+.kurse table td,
+.kurse table th { width: 100%; }
+
 
 /* CAROUSEL */
 .item {
@@ -225,7 +207,7 @@ table p {
 	background-image: none;
 	filter: none;
 }
-.carousel-control .glyphicon { color: #2e746b; }
+.carousel-control .glyphicon { color: #8fd8cd; }
 
 /* 3-SPALTEN */
 .three-columns .row { margin-bottom: 30px; }
@@ -325,34 +307,19 @@ footer a:focus {
 		width: 25%;
 		float: left;
 	}
-	.kurse td:before { content: ' '; }
-	.kurse thead,
-	.kurse tr {
-		display: table;
-		width: 100%;
-	}
-	.kurse th:first-child,
-	.kurse td:first-child { width: 10%; }
+
 	.kurse th,
 	.kurse td {
 		font-size: 16px;
-		display: inline-block;
-		float: left;
-		width: 22.5%;
 		border-right: 1px solid #ddd;
 	}
-	.kurse td[data-label] {
-		padding: 0;
-		font-size: 14px;
-	}
+
+
 	.kurse th:last-child,
 	.kurse td:last-child { border-right: 0; }
-	.kurse td {
-		height: 68px;
-		display: block;
-	}
+
 	.kurse th { padding-left: 10px; }
-	.kurse td[data-label] { padding-top: 8px; }
+
 	.col-sm-5.hidden-xs { text-align: center; }
 	footer section:nth-child(odd) {
 		display: block;
@@ -382,12 +349,6 @@ footer a:focus {
 	.wegbeschreibung { margin-top: 80px; }
 	.wegbeschreibung .col-sm-6:first-child { margin-top: -30px !important; }
 	.wegbeschreibung .col-sm-6:last-child { margin-top: 0 !important; }
-	.kurse th:nth-of-type(3),
-	.kurse td:nth-of-type(3),
-	.kurse th:nth-of-type(6),
-	.kurse td:nth-of-type(6),
-	.kurse th:nth-of-type(7),
-	.kurse td:nth-of-type(7) { display: inline-block; }
 	.kurse th,
-	.kurse td { width: 12.85714285714286%; }
+	.kurse td { width: 12.5%; }
 }

@@ -46,11 +46,14 @@
             </section>
         </footer>
         <!-- /container -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src=".<?=JS?>vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+
 
         <script src="<?=JS?>vendor/bootstrap.min.js"></script>
-
+<script src="<?=JS?>plugins.js"></script>
+        <script src="<?=JS?>vendor/footable.core.js"></script>
+        <script src="<?=JS?>vendor/footable.js"></script>
+        
         <script src="<?=JS?>main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

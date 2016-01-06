@@ -5,7 +5,7 @@
     		<div class="row">
                 <div class="col-md-5">
 			        <h2>Termine</h2>
-			        <p>Hier findest du besondere Termine, wie Workshops und spezielle Events.</p>
+			        <p>Hier findest Du besondere Termine, wie Workshops und spezielle Events.</p>
     			</div>
     		</div>
     	</div>

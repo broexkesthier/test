@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <h2>Preise</h2>
-                    <p>Hier findest du die Preislisten für Tanzloft.<br>Du kannst 3 Monate, 6 Monate oder auf für 12 Monate einen Vertrag bei uns ergattern. Alle Preise gelten pro Monat</p>
+                    <p>Hier findest Du die Preislisten für Tanzloft.<br>Du kannst für 3 Monate, für 6 Monate oder auch für 12 Monate Mindestvertragslaufzeit einen Vertrag bei uns ergattern. Alle Preise gelten pro Monat</p>
                 </div>
             </div>
         </div>

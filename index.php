@@ -78,40 +78,12 @@
                 </div>
                 <div class="col-sm-6">
                     <h2>Unsere etwas anderen Tanzkurse warten auf Dich!</h2>
-                    <p>Bestimmt auch der perfekte Tanzkurz für Dich! Schau bei unseren Kursen vorbei und melde dich direkt zum nächsten Kurs bei uns zur Probestunde an.</p>
+                    <p>Bestimmt auch der perfekte Tanzkurz für Dich! Schau bei unseren Kursen vorbei und melde Dich direkt zum nächsten Kurs bei uns zur Probestunde an.</p>
                     <p><a class="btn btn-default" role="button" href="<?=BASE?>kurse.php">Mehr lesen</a></p>
                 </div>
             </div>
         </div>
     </section>
-    <!--<section>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h2>Verschiedene Tanzkurse warten auf Dich!</h2>
-                    <p>Von Xasds zu Wadsdsa ist alles dabei. Bestimmt auch der perfekte Tanzkurz für Dich!</p>
-                    <p><a class="btn btn-default" href="#" role="button">Mehr lesen</a></p>
-                </div>
-                <div class="col-sm-5 col-sm-offset-1">
-                    <img class="img-responsive" title="Tanzkurse" src="img/section_tanzkurse.png" />
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <img class="img-responsive" title="Pole Dance" src="img/section_pole_dance_2.png" />
-                </div>
-                <div class="col-sm-6">
-                    <h2>Pole Dance kann jeder lernen - auch Du!</h2>
-                    <p>Du denkst du bist unbeweglich, du wirst niemals einen Spagat können und Körperspannung aufbauen. Falsch! Komm in meine Schnupperstunde und überzeuge Dich selber, das auch du das Zeug dazu hast Pole Dance zu lernen.</p>
-                    <p><a class="btn btn-default" href="#" role="button">Mehr lesen</a></p>
-                </div>
-            </div>
-        </div>
-    </section>-->
     <section>
         <div class="container wegbeschreibung">
             <div class="row">
