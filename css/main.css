@@ -209,6 +209,9 @@ table p {
 }
 .carousel-control .glyphicon { color: #8fd8cd; }
 
+.carousel-inner>.next, 
+.carousel-inner>.prev { width: 80%; }
+
 /* 3-SPALTEN */
 .three-columns .row { margin-bottom: 30px; }
 .three-columns .col-sm-4 { text-align: center; }
@@ -270,6 +273,8 @@ footer a:focus {
 .footer-contact .earphone:before { content: "\e182"; }
 .footer-contact .envelope:before { content: "\2709"; }
 .footer-contact .link:before { content: "\e144"; }
+
+input.wrong { border: 1px solid #6d1b4c;}
 
 /* MEDIA QUERIES */
 /* Small devices (tablets, 768px and up) */
@@ -345,6 +350,8 @@ footer a:focus {
 		width: 100%;
 		margin-left: 0;
 	}
+	.carousel-inner>.next, 
+	.carousel-inner>.prev { width: 100%; }
 	.item .col-sm-3 { margin-top: 220px; }
 	.wegbeschreibung { margin-top: 80px; }
 	.wegbeschreibung .col-sm-6:first-child { margin-top: -30px !important; }

@@ -3,10 +3,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4">
-                            <h3>Tanloft NRW</h3>
+                            <h3>Tanzloft NRW</h3>
                             <ul class="footer-contact">
                                 <li class="home">Tanzloft NRW<br>Sittarder Straße 63<br>41748 Viersen</li>
-                                <li class="earphone"><a href="tel:+492133234223">02133 - 23 42 23</a></li>
+                                <!--<li class="earphone"><a href="tel:+492133234223">02133 - 23 42 23</a></li>-->
                                 <li class="envelope"><a href="mailto:info@tanzloft-nrw.de">info@tanzloft-nrw.de</a></li>
                                 <li class="link"><a href="index.php">www.tanzloft-nrw.de</a></li>
                             </ul>

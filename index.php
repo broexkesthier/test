@@ -78,7 +78,7 @@
                 </div>
                 <div class="col-sm-6">
                     <h2>Unsere etwas anderen Tanzkurse warten auf Dich!</h2>
-                    <p>Bestimmt auch der perfekte Tanzkurz für Dich! Schau bei unseren Kursen vorbei und melde Dich direkt zum nächsten Kurs bei uns zur Probestunde an.</p>
+                    <p>Bestimmt auch der perfekte Tanzkurs für Dich! Schau bei unseren Kursen vorbei und melde Dich direkt zum nächsten Kurs bei uns zur Probestunde an.</p>
                     <p><a class="btn btn-default" role="button" href="<?=BASE?>kurse.php">Mehr lesen</a></p>
                 </div>
             </div>

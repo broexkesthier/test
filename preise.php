@@ -53,7 +53,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-xs-10">
-                            <p>+ 1 weiter Tanzkurs (non-Pole)</p>
+                            <p>+ 1 weiterer Tanzkurs (non-Pole)</p>
                         </div>
                         <div class="col-xs-2">
                             <p>20€</p>
