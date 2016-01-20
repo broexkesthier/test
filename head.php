@@ -1,5 +1,5 @@
 <?
-    define('BASE','/tanzloft/');
+    define('BASE','/');
     define('JS',BASE.'js/');
     define('CSS',BASE.'css/');
     define('IMG',BASE.'img/');
@@ -26,7 +26,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Tanzloft</title>
+        <title>Tanzloft NRW - Pole Dance in Viersen</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -37,6 +37,12 @@
         <link rel="stylesheet" href="<?=CSS?>FooTable.Glyphicons.css">
         <link rel="stylesheet" href="<?=CSS?>FooTable.css">
         <link rel="stylesheet" href="<?=CSS?>main.css">
+
+        <meta name="robots" content="index,follow">
+        <meta name="googlebot" content="index,follow"/>
+        <meta name="revisit-after" content="14 days" />
+        <meta name="keywords" content="Poledance, pole dance, viersen,  Mönchengladbach, Düsseldorf, Junggeselleninnenabschied(e), JGA, Stangentanz,  Pole Sport,  Pole Fitness, Stangenakrobatik" />
+        <meta name="description" content="Lerne jetzt Pole Dance im Umkreis Viersen / Mönchengladbach. Im Tanzloft NRW erwartet Dich ein ausgefallenes Kursangebot, in dem Spaß, Leidenschaft am Tanz und Stärkung der körperlichen und geistigen Vitalität im Mittelpunkt stehen!" />
 
         <script src="<?=JS?>vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
