@@ -274,7 +274,8 @@ footer a:focus {
 .footer-contact .envelope:before { content: "\2709"; }
 .footer-contact .link:before { content: "\e144"; }
 
-input.wrong { border: 1px solid #6d1b4c;}
+input.wrong,
+textarea.wrong { border: 1px solid #6d1b4c; }
 
 /* MEDIA QUERIES */
 /* Small devices (tablets, 768px and up) */
@@ -358,4 +359,8 @@ input.wrong { border: 1px solid #6d1b4c;}
 	.wegbeschreibung .col-sm-6:last-child { margin-top: 0 !important; }
 	.kurse th,
 	.kurse td { width: 12.5%; }
+
+	.confirm-site {
+		height: 340px;
+	}
 }

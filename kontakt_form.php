@@ -4,11 +4,12 @@
     
     if(isset($_POST['name']))    {$name =  strip_tags($_POST['name']);    }else{$name  = '';}
     if(isset($_POST['email']))   {$email = strip_tags($_POST['email']);   }else{$email = '';}
-    if(isset($_POST['telefon'])) {$email = strip_tags($_POST['telefon']); }else{$telefon = '';}
+    if(isset($_POST['telefon'])) {$telefon = strip_tags($_POST['telefon']); }else{$telefon = '';}
     if(isset($_POST['text']))    {$text =  strip_tags($_POST['text']);    }else{$text  = '';}
     
     $mailOk = false;
-    
+    $captchaErr = false;
+
     if(
         $name != '' && 
         $email != '' && checkEmail($email) &&
@@ -23,9 +24,10 @@
             $mailOk = true;
             
             $from_name = 'Tanzloft Kontaktformular';
-            $from_email = 'f- broexkes.thier@gmail.com';
+            $from_email = 'formular@tanzloft-nrw.de';
+            // $to_email = 'info@tanzloft-nrw.de';
             $to_email = 'broexkes.thier@gmail.com';
-            $subject = 'Kontaktaufnahme von "'.$name.' über die Webseite"';
+            $subject = 'Kontaktaufnahme von "'.$name.'" über die Webseite';
             $text_message = 
                 "Name: '".$name."'\n
                 E-Mail: '".$email."'\n
@@ -42,7 +44,7 @@
                 <hr />
                 ".str_replace("\n",'<br />',$text)."
                 <hr />";
-            sendHTMLmail($from_name, $from_email, $to_email, $subject, $text_message, $html_message);
+            // sendHTMLmail($from_name, $from_email, $to_email, $subject, $text_message, $html_message);
         }
     }
 
@@ -91,24 +93,30 @@
                     <label for="TextareaNachricht">Ihre Nachricht</label>
                     <textarea name="text" class="form-control" rows="3" id="TextareaNachricht"><?php echo $text; ?></textarea>
                 </div>
-                <p>Sicherheitscode</p>
-                <img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" /><span class="refresh"></span>
-                <p>Geben Sie hier die Lösung der Rechnung ein:</p>
-                 <input type="text" name="captcha_code" maxlength="6" <?php if($captchaErr){echo 'class="wrong test"';} ?>/>
-                <?php
-                    if($captchaErr){
-                        echo '<br />Ups, der eingegebene Code war falsch. Versuch es noch einmal!';
-                    }
-                ?>
-                <p>
-                    <input type="submit" value="Absenden"  class="btn btn-default" />
-                    <input type="reset" value="Zurücksetzen" class="btn btn-default" />
-                </p>
+                <div class="form-group">
+                    <p>Sicherheitscode</p>
+                    <img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" /><span class="refresh"></span>
+                    <p>Geben Sie hier die Lösung der Rechnung ein:</p>
+                     <input type="text" class="form-control" name="captcha_code" maxlength="6" <?php if($captchaErr){echo 'class="wrong test"';} ?>/>
+                    <?php
+                        if($captchaErr){
+                            echo '<br />Ups, der eingegebene Code war falsch. Versuch es noch einmal!';
+                        }
+                    ?>
+                    </div>
+                <div class="form-group cleafix">
+                    <div class="pull-right">
+                        <input type="reset" value="Zurücksetzen" class="btn btn-default" />
+                        <input type="submit" value="Absenden"  class="btn btn-default" />
+                    </div>
+                </div>
             </form>
 
             <?php }else{ ?>
-                <h2>Vielen Dank, <?php echo $name; ?>.</h2>
-                Die Nachricht wurde erfolgreich verschickt.
+                <div class="confirm-site">
+                    <h2>Vielen Dank, <?php echo $name; ?>.</h2>
+                    <p>Die Nachricht wurde erfolgreich verschickt.</p>
+                </div>
             <?php } ?>
         </div>
     </section>
