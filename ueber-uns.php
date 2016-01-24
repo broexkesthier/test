@@ -14,7 +14,7 @@
 			<div class="container content ueber-uns">
 				<div class="row">
 					<div class="col-sm-5 hidden-xs">
-						<img src="<?=IMG?>tanzloft.png" class="img-responsive" title="Tanzloft" height="350" />
+						<img src="<?=IMG?>tanzloft.png" alt="Trainerin Carina" title="Trainerin Carina" class="img-responsive" height="350" />
 					</div>
 					<div class="col-sm-7">
 						<h2>Was Tanzloft besonders macht</h2>
@@ -34,7 +34,7 @@
 						<p>Neben einer großen Tanzfläche, mehreren Pole Dance Stangen und einer Pole Stage bietet unser Tanzstudio ausreichend Platz für eine gemütliche Sitz-Couch und weitere Sitzgelegenheiten. Für die jeweiligen Tanzkurse werden Trainings-Matten und weiteres Zubehör bereitgestellt.  Unsere klangstarke Musikanlage sorgt stets für die richtige Atmosphäre.</p>
 					</div>
 					<div class="col-sm-5 hidden-xs">
-						<img src="<?=IMG?>raeumlichkeiten.png" class="img-responsive" title="Räumlichkeiten" width="350" />
+						<img src="<?=IMG?>raeumlichkeiten.png" class="img-responsive" alt="Räumlichkeiten" title="Räumlichkeiten" width="350" />
 					</div>
 				</div>
 			</div>

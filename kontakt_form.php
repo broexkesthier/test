@@ -44,7 +44,7 @@
                 <hr />
                 ".str_replace("\n",'<br />',$text)."
                 <hr />";
-            // sendHTMLmail($from_name, $from_email, $to_email, $subject, $text_message, $html_message);
+            sendHTMLmail($from_name, $from_email, $to_email, $subject, $text_message, $html_message);
         }
     }
 

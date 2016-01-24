@@ -12,7 +12,7 @@
                                 <p>Lebe deinen Traum!</p>
                             </div>
                             <div class="col-sm-6 col-sm-offset-1">
-                                <img class="img-responsive" title="Teaser" src="img/gallery_teaser_01.png" />
+                                <img class="img-responsive" title="Teaser" alt="Leidenschaft" title="Leidenschaft" src="img/gallery_teaser_01.png" />
                             </div>
                         </div>
                     </div>
@@ -23,7 +23,7 @@
                                 <p>Genieße dein Leben!</p>
                             </div>
                             <div class="col-sm-6 col-sm-offset-1">
-                                <img class="img-responsive" title="Teaser" src="img/gallery_teaser_02.png" />
+                                <img class="img-responsive" title="Teaser" alt="Spaß" title="Spaß" src="img/gallery_teaser_02.png" />
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@
                                 <p>Gesundheit für Körper, Geist & Seele!</p>
                             </div>
                             <div class="col-sm-6 col-sm-offset-1">
-                                <img class="img-responsive" title="Teaser" src="img/gallery_teaser_03.png" />
+                                <img class="img-responsive" title="Teaser" alt="Vitalität" title="Vitalität" src="img/gallery_teaser_03.png" />
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 hidden-xs">
-                    <img class="img-responsive" title="Pole Dance" src="img/section_pole_dance.png" />
+                    <img class="img-responsive" alt="Pole Dance" title="Pole Dance" src="img/section_pole_dance.png" />
                 </div>
                 <div class="col-sm-6">
                     <h2>Unsere etwas anderen Tanzkurse warten auf Dich!</h2>
@@ -96,7 +96,7 @@
                     <p><a class="btn btn-default" href="<?=BASE?>kontakt.php" role="button">Mehr lesen</a></p>
                 </div>
                 <div class="col-sm-6 hidden-xs">
-                    <img class="img-responsive" title="Wegbeschreibung" src="img/section_wegbeschreibung.png" />
+                    <img class="img-responsive" alt="Wegbeschreibung" title="Wegbeschreibung" src="img/section_wegbeschreibung.png" />
                 </div>
             </div>
         </div>
