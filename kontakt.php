@@ -38,7 +38,7 @@
             $html_message = 
                 "Name: '".$name."<br />
                 E-Mail: '".$email."<br />
-                elefonnummer: '".$telefon."<br />
+                Telefonnummer: '".$telefon."<br />
                 Nachricht:<br />
                 <hr />
                 ".str_replace("\n",'<br />',$text)."
