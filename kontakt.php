@@ -66,7 +66,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <p>Tanzloft NRW<br>Sittarder Straße 63<br>41748 Viersen</p>
-                    <p>Tel: 02133 - 23 42 23<br>E-Mail: <a href="mailto:info@tanzloft-nrw.de">info@tanzloft-nrw.de</a><br>41748 Viersen</p>
+                    <p>E-Mail: <a href="mailto:info@tanzloft-nrw.de">info@tanzloft-nrw.de</a><br>41748 Viersen</p>
                 </div>
                 <!--<div class="col-md-4">
                     <p>- gute parkmöglichkeiten</p>
