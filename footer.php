@@ -41,7 +41,7 @@
             </section>
             <section>
                 <div class="container">
-                    <p>&copy; 2015 Tanzloft NRW | <a href="<?=BASE?>impressum.php">Impressum</a></p>
+                    <p>&copy; 2016 Tanzloft NRW | <a href="<?=BASE?>impressum.php">Impressum</a></p>
                 </div>
             </section>
         </footer>
